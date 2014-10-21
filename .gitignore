@@ -7,6 +7,9 @@
 *.csproj
 *.unityproj
 *.sln
+*.DS_store
+
+
 /*.suo
 /*.user
 /*.userprefs
