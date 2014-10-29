@@ -76,7 +76,7 @@ NavMeshSettings:
   m_NavMesh: {fileID: 0}
 --- !u!1 &57664950
 GameObject:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
@@ -87,6 +87,7 @@ GameObject:
   - 114: {fileID: 57664954}
   - 114: {fileID: 57664953}
   - 114: {fileID: 57664952}
+  - 114: {fileID: 57664957}
   m_Layer: 0
   m_Name: Question 1
   m_TagString: Untagged
@@ -96,7 +97,7 @@ GameObject:
   m_IsActive: 1
 --- !u!114 &57664951
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 57664950}
@@ -113,13 +114,14 @@ MonoBehaviour:
     height: 40
   description: Scene Introduction
   commandList:
+  - {fileID: 57664957}
   - {fileID: 57664955}
   - {fileID: 57664954}
   - {fileID: 57664953}
   - {fileID: 57664952}
 --- !u!114 &57664952
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 57664950}
@@ -136,7 +138,7 @@ MonoBehaviour:
   hideOnSelected: 0
 --- !u!114 &57664953
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 57664950}
@@ -153,7 +155,7 @@ MonoBehaviour:
   hideOnSelected: 0
 --- !u!114 &57664954
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 57664950}
@@ -170,7 +172,7 @@ MonoBehaviour:
   hideOnSelected: 0
 --- !u!114 &57664955
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 57664950}
@@ -188,7 +190,7 @@ MonoBehaviour:
   timeoutDuration: 0
 --- !u!4 &57664956
 Transform:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 57664950}
@@ -198,6 +200,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2059816964}
   m_RootOrder: 0
+--- !u!114 &57664957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 57664950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 729716dd3f49b4b9a8756694be2d3e99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  errorMessage: 
+  indentLevel: 0
+  selected: 0
+  movie: {fileID: 15200000, guid: 8e70da56f340244f7a546e5e5a262e8a, type: 3}
+  guiTexture: {fileID: 2059816967}
+  audio: {fileID: 2059816966}
 --- !u!1 &332704476
 GameObject:
   m_ObjectHideFlags: 0
@@ -284,7 +303,7 @@ Transform:
   m_RootOrder: 0
 --- !u!1 &661142307
 GameObject:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
@@ -301,7 +320,7 @@ GameObject:
   m_IsActive: 1
 --- !u!114 &661142308
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 661142307}
@@ -321,7 +340,7 @@ MonoBehaviour:
   - {fileID: 661142309}
 --- !u!114 &661142309
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 661142307}
@@ -338,19 +357,19 @@ MonoBehaviour:
   hideOnSelected: 0
 --- !u!4 &661142310
 Transform:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 661142307}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -.5, y: -.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2059816964}
   m_RootOrder: 2
 --- !u!1 &1121527005
 GameObject:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
@@ -372,7 +391,7 @@ GameObject:
   m_IsActive: 1
 --- !u!114 &1121527006
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1121527005}
@@ -383,7 +402,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -254
+    x: -255
     y: 96
     width: 100
     height: 40
@@ -397,7 +416,7 @@ MonoBehaviour:
   - {fileID: 1121527007}
 --- !u!114 &1121527007
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1121527005}
@@ -414,7 +433,7 @@ MonoBehaviour:
   hideOnSelected: 0
 --- !u!114 &1121527008
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1121527005}
@@ -431,7 +450,7 @@ MonoBehaviour:
   hideOnSelected: 0
 --- !u!114 &1121527009
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1121527005}
@@ -448,7 +467,7 @@ MonoBehaviour:
   hideOnSelected: 0
 --- !u!114 &1121527010
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1121527005}
@@ -465,7 +484,7 @@ MonoBehaviour:
   hideOnSelected: 0
 --- !u!114 &1121527011
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1121527005}
@@ -482,7 +501,7 @@ MonoBehaviour:
   hideOnSelected: 0
 --- !u!114 &1121527012
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1121527005}
@@ -499,7 +518,7 @@ MonoBehaviour:
   hideOnSelected: 0
 --- !u!4 &1121527013
 Transform:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1121527005}
@@ -511,7 +530,7 @@ Transform:
   m_RootOrder: 1
 --- !u!1 &1273097104
 GameObject:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
@@ -531,7 +550,7 @@ GameObject:
   m_IsActive: 1
 --- !u!114 &1273097105
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1273097104}
@@ -554,7 +573,7 @@ MonoBehaviour:
   - {fileID: 1273097106}
 --- !u!114 &1273097106
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1273097104}
@@ -571,7 +590,7 @@ MonoBehaviour:
   hideOnSelected: 0
 --- !u!114 &1273097107
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1273097104}
@@ -588,7 +607,7 @@ MonoBehaviour:
   hideOnSelected: 0
 --- !u!114 &1273097108
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1273097104}
@@ -605,7 +624,7 @@ MonoBehaviour:
   hideOnSelected: 0
 --- !u!114 &1273097109
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1273097104}
@@ -623,7 +642,7 @@ MonoBehaviour:
   timeoutDuration: 0
 --- !u!4 &1273097110
 Transform:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1273097104}
@@ -707,7 +726,7 @@ Transform:
   m_RootOrder: 1
 --- !u!1 &1532377002
 GameObject:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
@@ -723,7 +742,7 @@ GameObject:
   m_IsActive: 1
 --- !u!114 &1532377003
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1532377002}
@@ -742,7 +761,7 @@ MonoBehaviour:
   commandList: []
 --- !u!4 &1532377004
 Transform:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1532377002}
@@ -801,14 +820,14 @@ Transform:
   m_RootOrder: 0
 --- !u!1 &1866575470
 GameObject:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1866575474}
   - 114: {fileID: 1866575473}
-  - 114: {fileID: 1866575472}
+  - 114: {fileID: 1866575475}
   - 114: {fileID: 1866575471}
   m_Layer: 0
   m_Name: Intro
@@ -819,42 +838,22 @@ GameObject:
   m_IsActive: 1
 --- !u!114 &1866575471
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1866575470}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a61ea20fbb744ca2a363c33ad65cd89, type: 3}
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   errorMessage: 
   indentLevel: 0
   selected: 0
-  optionText: Continue
   targetSequence: {fileID: 57664951}
-  hideOnSelected: 0
---- !u!114 &1866575472
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1866575470}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  errorMessage: 
-  indentLevel: 0
-  selected: 0
-  storyText: Intro video
-  character: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showOnce: 0
 --- !u!114 &1866575473
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1866575470}
@@ -865,17 +864,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -136
+    x: -135
     y: -109
     width: 100
     height: 40
   description: 
   commandList:
-  - {fileID: 1866575472}
+  - {fileID: 1866575475}
   - {fileID: 1866575471}
 --- !u!4 &1866575474
 Transform:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1866575470}
@@ -885,6 +884,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2059816964}
   m_RootOrder: 3
+--- !u!114 &1866575475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1866575470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 729716dd3f49b4b9a8756694be2d3e99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  errorMessage: 
+  indentLevel: 0
+  selected: 0
+  movie: {fileID: 15200000, guid: 56102b834fbed44959fd41815d9fb424, type: 3}
+  guiTexture: {fileID: 2059816967}
+  audio: {fileID: 2059816966}
 --- !u!1 &2059816963
 GameObject:
   m_ObjectHideFlags: 0
@@ -894,6 +910,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 2059816964}
   - 114: {fileID: 2059816965}
+  - 131: {fileID: 2059816967}
+  - 82: {fileID: 2059816966}
   m_Layer: 0
   m_Name: Fungus Script
   m_TagString: Untagged
@@ -908,7 +926,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2059816963}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: .5, y: .5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 57664956}
@@ -930,16 +948,93 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scriptScrollPos: {x: 3.5, y: 56.003418}
+  scriptScrollPos: {x: 3.5, y: 77.0023193}
   commandScrollPos: {x: 0, y: 0}
   commandViewWidth: 350
-  selectedSequence: {fileID: 1532377003}
+  selectedSequence: {fileID: 1121527006}
   selectedCommand: {fileID: 0}
   variables: []
-  startSequence: {fileID: 57664951}
+  startSequence: {fileID: 1866575473}
   executeOnStart: 1
   settings:
     runSlowInEditor: 1
     runSlowDuration: .25
     colorCommands: 1
-    hideSequenceObjects: 1
+    hideSequenceObjects: 0
+--- !u!82 &2059816966
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2059816963}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!131 &2059816967
+GUITexture:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2059816963}
+  m_Enabled: 1
+  m_Texture: {fileID: 0}
+  m_Color: {r: .5, g: .5, b: .5, a: .5}
+  m_PixelInset:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  m_LeftBorder: 0
+  m_RightBorder: 0
+  m_TopBorder: 0
+  m_BottomBorder: 0
