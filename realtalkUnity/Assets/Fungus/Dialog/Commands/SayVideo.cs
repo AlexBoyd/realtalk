@@ -13,14 +13,13 @@ namespace Fungus
         public MovieTexture movie;
         public new GUITexture guiTexture;
         public new AudioSource audio;
-        private bool playing = false;
 
         public override void OnEnter ()
         {
             Debug.Log (name);   
-            playing = true;
             guiTexture.texture = movie;
-            ((MovieTexture)guiTexture.texture).Play ();
+            ((MovieTexture)guiTexture.texture).Stop();        
+            ((MovieTexture)guiTexture.texture).Play();
 
             audio.clip = ((MovieTexture)guiTexture.texture).audioClip;
             audio.Play ();
