@@ -11,13 +11,15 @@ namespace Fungus
 	[CustomEditor (typeof(AddRealTalkOption))]
 	public class AddRealTalkOptionEditor : CommandEditor 
 	{
-		protected SerializedProperty realTalkOptionTextProp;
+		protected SerializedProperty realTalkOptionTitleProp;
+		protected SerializedProperty realTalkOptionValenceProp;
 		protected SerializedProperty hideOnSelectedProp;
 		protected SerializedProperty targetSequenceProp;
 		
 		protected virtual void OnEnable()
 		{
-			realTalkOptionTextProp = serializedObject.FindProperty("optionText");
+			realTalkOptionTitleProp = serializedObject.FindProperty("optionTitle");
+			realTalkOptionValenceProp = serializedObject.FindProperty ("valence");
 			hideOnSelectedProp = serializedObject.FindProperty("hideOnSelected");
 			targetSequenceProp = serializedObject.FindProperty("targetSequence");
 		}
@@ -28,8 +30,10 @@ namespace Fungus
 			
 			AddRealTalkOption t = target as AddRealTalkOption;
 			
-			EditorGUILayout.PropertyField(realTalkOptionTextProp, new GUIContent("Option Text", "Text to display on the option button."));
+			EditorGUILayout.PropertyField(realTalkOptionTitleProp, new GUIContent("Option Title", "Title of the option."));
+			EditorGUILayout.PropertyField(realTalkOptionValenceProp, new GUIContent("Valence", "Valence property of the option."));
 
+			
 			SequenceEditor.SequenceField(targetSequenceProp,
 			                             new GUIContent("Target Sequence", "Sequence to execute when this option is selected by the player."),
 			                             new GUIContent("<Continue>"),

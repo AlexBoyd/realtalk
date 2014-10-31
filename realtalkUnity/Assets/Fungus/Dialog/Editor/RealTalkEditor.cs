@@ -17,6 +17,8 @@ namespace Fungus
 		protected SerializedProperty realTalkTextProp;
 		protected SerializedProperty characterProp;
 		protected SerializedProperty voiceOverClipProp;
+		protected SerializedProperty movieClipProp;
+
 		protected SerializedProperty timeoutDurationProp;
 		
 		protected virtual void OnEnable()
@@ -24,6 +26,7 @@ namespace Fungus
 			realTalkTextProp = serializedObject.FindProperty("chooseText");
 			characterProp = serializedObject.FindProperty("character");
 			voiceOverClipProp = serializedObject.FindProperty("voiceOverClip");
+			movieClipProp = serializedObject.FindProperty("movieClip");
 			timeoutDurationProp = serializedObject.FindProperty("timeoutDuration");
 		}
 		
@@ -73,7 +76,9 @@ namespace Fungus
 			                                     Character.activeCharacters);
 			
 			EditorGUILayout.PropertyField(voiceOverClipProp, new GUIContent("Voice Over Clip", "Voice over audio to play when the Real Talk text is displayed"));
-			
+
+			EditorGUILayout.PropertyField(movieClipProp, new GUIContent("Movie Clip", "Movie to play when the Real Talk text is displayed"));
+
 			EditorGUILayout.PropertyField(timeoutDurationProp, new GUIContent("Timeout Duration", "Time limit for player to make a choice. Set to 0 for no limit."));
 			
 			serializedObject.ApplyModifiedProperties();
