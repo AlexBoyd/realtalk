@@ -18,25 +18,29 @@ namespace Fungus
 
         public override void OnEnter ()
         {
-            Debug.Log (name);   
-            movie.Stop ();
-            skipped = false;
-            playing = true;
-            guiTexture.texture = movie;
-            ((MovieTexture)guiTexture.texture).Play ();
-
-            audio.clip = ((MovieTexture)guiTexture.texture).audioClip;
-            audio.Play ();
             StartCoroutine (PlayMovieCoroutine ());
+
         }
 
         private IEnumerator PlayMovieCoroutine ()
         {
+            skipped = false;
+            playing = true;
+            guiTexture.color = new Color (1, 1, 1, 0);
+            movie.Play ();
+            guiTexture.texture = movie;
+            
+            audio.clip = ((MovieTexture)guiTexture.texture).audioClip;
+            audio.Play ();
+            audio.volume = 0;
+            yield return new WaitForSeconds (0.3f);
+            guiTexture.color = new Color (1, 1, 1, 1);
+            audio.volume = 1;
             yield return new WaitForSeconds (movie.duration - 0.1f);
             if (!skipped)
             {
-                ((MovieTexture)guiTexture.texture).Pause ();
                 playing = false;
+                ((MovieTexture)guiTexture.texture).Stop ();
                 Continue ();
             }
         }
@@ -47,6 +51,8 @@ namespace Fungus
             {
                 skipped = true;
                 playing = false;
+                ((MovieTexture)guiTexture.texture).Stop ();
+
                 Continue ();
             }
         }

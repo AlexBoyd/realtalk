@@ -15,6 +15,6 @@ public class VAControl : MonoBehaviour {
 	{
 		float horizontal = Input.GetAxis ("Horizontal");
 		//float vertical = Input.GetAxis ("Vertical");
-		transform.localPosition = new Vector2 (horizontal * VAChartScale, 0f);
+		transform.localPosition = new Vector2 (-horizontal * VAChartScale, 0f);
 	}
 }

@@ -11,7 +11,7 @@ namespace Fungus
 
 	public class AddRealTalkOption : Command 
 	{
-		public string optionTitle;
+        public string optionText;
 		public Sequence targetSequence;
         public float valence;
 		
@@ -26,30 +26,30 @@ namespace Fungus
 				return;
 			}
 			
-			RealTalk.Option option = new RealTalk.Option();
-			option.optionTitle = optionTitle;
+            RealTalkChoose.RealTalkOption option = new RealTalkChoose.RealTalkOption();
+            option.optionText = optionText;
 			option.targetSequence = targetSequence;
             option.valence = valence;
-			RealTalk.realTalkOptionsList.Add(option);
+            RealTalkChoose.options.Add(option);
 			
 			Continue();
 		}
 		
-//		public override string GetSummary()
-//		{
-//			string summaryText = optionTitle;
-//			
-//			if (targetSequence == null)
-//			{
-//				summaryText += " ( <Continue> )";
-//			}
-//			else
-//			{
-//				summaryText += " (" + targetSequence.name + ")";
-//			}
-//			
-//			return summaryText;
-//		}
+		public override string GetSummary()
+		{
+			string summaryText = optionText;
+			
+			if (targetSequence == null)
+			{
+				summaryText += " ( <Continue> )";
+			}
+			else
+			{
+				summaryText += " (" + targetSequence.name + ")";
+			}
+			
+			return summaryText;
+        }
 		
 		public override void GetConnectedSequences(ref List<Sequence> connectedSequences)
 		{

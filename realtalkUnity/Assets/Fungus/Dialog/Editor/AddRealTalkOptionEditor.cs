@@ -18,7 +18,7 @@ namespace Fungus
 		
 		protected virtual void OnEnable()
 		{
-			realTalkOptionTitleProp = serializedObject.FindProperty("optionTitle");
+			realTalkOptionTitleProp = serializedObject.FindProperty("optionText");
 			realTalkOptionValenceProp = serializedObject.FindProperty ("valence");
 			hideOnSelectedProp = serializedObject.FindProperty("hideOnSelected");
 			targetSequenceProp = serializedObject.FindProperty("targetSequence");
@@ -30,7 +30,7 @@ namespace Fungus
 			
 			AddRealTalkOption t = target as AddRealTalkOption;
 			
-			EditorGUILayout.PropertyField(realTalkOptionTitleProp, new GUIContent("Option Title", "Title of the option."));
+			EditorGUILayout.PropertyField(realTalkOptionTitleProp, new GUIContent("Option Text", "Text of the option."));
 			EditorGUILayout.PropertyField(realTalkOptionValenceProp, new GUIContent("Valence", "Valence property of the option."));
 
 			
