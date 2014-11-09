@@ -18,21 +18,22 @@ namespace Fungus
             public float valence;
         }
 
+       
         static public List<RealTalkOption> options = new List<RealTalkOption> ();
         [TextArea(5,10)]
-        public string chooseText;
+        public string
+            chooseText;
         public Character character;
         public AudioClip voiceOverClip;
         public float timeoutDuration;
         protected bool showBasicGUI;
-
         public FungusScript fungus = null;
 
         public override void OnEnter ()
         {
             if (fungus == null)
             {
-                fungus = GetFungusScript();
+                fungus = GetFungusScript ();
             }
             RealTalkChooseDialog dialog = SetRealTalkChooseDialog.activeDialog;
             showBasicGUI = false;
@@ -57,9 +58,9 @@ namespace Fungus
                 dialog.SetCharacter (character);
                 
                 List<RealTalkChooseDialog.Option> dialogOptions = new List<RealTalkChooseDialog.Option> ();
-                switch(fungus.settings.RTMode)
+                switch (fungus.settings.RTMode)
                 {
-                    case FungusScript.RealTalkMode.Control:
+                case FungusScript.RealTalkMode.Control:
                     foreach (RealTalkOption option in options)
                     {
                         RealTalkChooseDialog.Option dialogOption = new RealTalkChooseDialog.Option ();
@@ -91,23 +92,41 @@ namespace Fungus
                         MusicController.GetInstance ().PlaySound (voiceOverClip, 1f);
                     }
                     
-                    dialog.Choose (chooseText, dialogOptions, timeoutDuration, delegate {
+                    dialog.Choose (fungus.settings.RTMode, chooseText, dialogOptions, timeoutDuration, delegate {
                         dialog.ShowDialog (false);
                         Continue ();
                     });
                     break;
 
-                    case FungusScript.RealTalkMode.Slider:
-                    dialog.Choose (chooseText, dialogOptions, timeoutDuration, delegate {
+                case FungusScript.RealTalkMode.Slider:
+                    dialog.Choose (fungus.settings.RTMode, chooseText, dialogOptions, timeoutDuration, delegate {
                         dialog.ShowDialog (false);
                         float val = dialog.emotionalSlider.value;
-                        options.Sort((a, b) => Math.Abs(val - a.valence).CompareTo(Math.Abs(val - b.valence)));
-                        ExecuteSequence(options.First().targetSequence);
+                        options.Sort ((a, b) => Math.Abs (val - a.valence).CompareTo (Math.Abs (val - b.valence)));
+                        ExecuteSequence (options.First ().targetSequence);
+                        options.Clear();
                     });
 
                     break;
 
-                    case FungusScript.RealTalkMode.MoodMode:
+                case FungusScript.RealTalkMode.MoodMode:
+
+                    dialog.Choose(fungus.settings.RTMode, chooseText, dialogOptions, 0, null);
+                    options.Sort ((a, b) => a.valence.CompareTo (b.valence));
+                    if (dialog.em1.isOn)
+                    {
+                        ExecuteSequence (options [0].targetSequence);
+                    }
+                    if (dialog.em2.isOn)
+                    {
+                        ExecuteSequence (options [1].targetSequence);
+                    }
+                    if (dialog.em3.isOn)
+                    {
+                        ExecuteSequence (options [2].targetSequence);
+                    }
+                    options.Clear();
+
                     break;
                 }
             }

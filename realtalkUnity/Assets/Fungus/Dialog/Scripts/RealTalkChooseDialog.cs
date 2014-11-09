@@ -14,12 +14,25 @@ namespace Fungus
 		public Slider timeoutSlider;
         public Slider emotionalSlider;
 
+        public Toggle em1;
+        public Toggle em2;
+        public Toggle em3;
+
+        public enum RealTalkMood
+        {
+            e1,
+            e2,
+            e3
+        }
+
 		public class Option
 		{
 			public string text;
 			public UnityAction onSelect;
             public float valence;
 		}
+
+        public RealTalkMood CurrentMood = RealTalkMood.e2;
 
 		public List<UnityEngine.UI.Button> optionButtons = new List<UnityEngine.UI.Button>();
 
@@ -31,6 +44,8 @@ namespace Fungus
 			{
 				activeDialogs.Add(this);
 			}
+
+
 		}
 		
 		protected virtual void OnDisable()
@@ -42,11 +57,16 @@ namespace Fungus
 		{
 			base.ShowDialog (visible);
 			timeoutSlider.gameObject.SetActive(false);
+
 		}
 
-		public virtual void Choose(string text, List<Option> options, float timeoutDuration, Action onTimeout)
+		public virtual void Choose(FungusScript.RealTalkMode rtMode, string text, List<Option> options, float timeoutDuration, Action onTimeout)
 		{
 			Clear();
+            emotionalSlider.gameObject.SetActive(rtMode == FungusScript.RealTalkMode.Slider);
+            em1.gameObject.SetActive(rtMode == FungusScript.RealTalkMode.MoodMode);
+            em2.gameObject.SetActive(rtMode == FungusScript.RealTalkMode.MoodMode);
+            em3.gameObject.SetActive(rtMode == FungusScript.RealTalkMode.MoodMode);
 
 			Action onWritingComplete = delegate {
 				foreach (Option option in options)
