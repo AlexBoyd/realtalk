@@ -58,9 +58,9 @@ namespace Fungus
                 dialog.SetCharacter (character);
                 
                 List<RealTalkChooseDialog.Option> dialogOptions = new List<RealTalkChooseDialog.Option> ();
-                switch (fungus.settings.RTMode)
+                switch (dialog.RTMode)
                 {
-                case FungusScript.RealTalkMode.Control:
+                case RealTalkChooseDialog.RealTalkMode.Control:
                     foreach (RealTalkOption option in options)
                     {
                         RealTalkChooseDialog.Option dialogOption = new RealTalkChooseDialog.Option ();
@@ -92,14 +92,14 @@ namespace Fungus
                         MusicController.GetInstance ().PlaySound (voiceOverClip, 1f);
                     }
                     
-                    dialog.Choose (fungus.settings.RTMode, chooseText, dialogOptions, timeoutDuration, delegate {
+                    dialog.Choose (chooseText, dialogOptions, timeoutDuration, delegate {
                         dialog.ShowDialog (false);
                         Continue ();
                     });
                     break;
 
-                case FungusScript.RealTalkMode.Slider:
-                    dialog.Choose (fungus.settings.RTMode, chooseText, dialogOptions, timeoutDuration, delegate {
+                case RealTalkChooseDialog.RealTalkMode.Slider:
+                    dialog.Choose (chooseText, dialogOptions, timeoutDuration, delegate {
                         dialog.ShowDialog (false);
                         float val = dialog.emotionalSlider.value;
                         options.Sort ((a, b) => Math.Abs (val - a.valence).CompareTo (Math.Abs (val - b.valence)));
@@ -109,9 +109,9 @@ namespace Fungus
 
                     break;
 
-                case FungusScript.RealTalkMode.MoodMode:
+                case RealTalkChooseDialog.RealTalkMode.MoodMode:
 
-                    dialog.Choose(fungus.settings.RTMode, chooseText, dialogOptions, 0, null);
+                    dialog.Choose(chooseText, dialogOptions, 0, null);
                     options.Sort ((a, b) => a.valence.CompareTo (b.valence));
                     if (dialog.em1.isOn)
                     {

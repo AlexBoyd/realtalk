@@ -102,12 +102,6 @@ namespace Fungus
 			 */
 			[Tooltip("Hides the child sequence game objects in the Hierarchy view")]
 			public bool hideSequenceObjects = true;
-
-            /**
-             * Sets execution mode for real talk choose commands"
-             */
-            [Tooltip("Sets execution mode for real talk choose commands")]
-            public RealTalkMode RTMode = RealTalkMode.Control;
 		}
 
 		/**
@@ -120,6 +114,7 @@ namespace Fungus
 		{
 			if (executeOnStart)
 			{
+
 				Execute();
 			}
 		}

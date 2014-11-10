@@ -38,13 +38,28 @@ namespace Fungus
 
         static public List<RealTalkChooseDialog> activeDialogs = new List<RealTalkChooseDialog>();
 
+        public RealTalkMode RTMode;
+
+        public enum RealTalkMode
+        {
+            Control,
+            Slider,
+            MoodMode
+        }
+
 		protected virtual void OnEnable()
 		{
 			if (!activeDialogs.Contains(this))
 			{
 				activeDialogs.Add(this);
 			}
+            emotionalSlider.gameObject.SetActive(false);
+            em1.gameObject.SetActive(RTMode == RealTalkMode.MoodMode);
+            em2.gameObject.SetActive(RTMode == RealTalkMode.MoodMode);
+            em3.gameObject.SetActive(RTMode == RealTalkMode.MoodMode);
+            timeoutSlider.gameObject.SetActive(false);
 
+            Clear();
 
 		}
 		
@@ -60,13 +75,10 @@ namespace Fungus
 
 		}
 
-		public virtual void Choose(FungusScript.RealTalkMode rtMode, string text, List<Option> options, float timeoutDuration, Action onTimeout)
+		public virtual void Choose(string text, List<Option> options, float timeoutDuration, Action onTimeout)
 		{
 			Clear();
-            emotionalSlider.gameObject.SetActive(rtMode == FungusScript.RealTalkMode.Slider);
-            em1.gameObject.SetActive(rtMode == FungusScript.RealTalkMode.MoodMode);
-            em2.gameObject.SetActive(rtMode == FungusScript.RealTalkMode.MoodMode);
-            em3.gameObject.SetActive(rtMode == FungusScript.RealTalkMode.MoodMode);
+            emotionalSlider.gameObject.SetActive(RTMode == RealTalkMode.Slider);
 
 			Action onWritingComplete = delegate {
 				foreach (Option option in options)
