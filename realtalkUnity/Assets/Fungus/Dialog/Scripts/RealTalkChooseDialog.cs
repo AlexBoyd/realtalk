@@ -62,6 +62,11 @@ namespace Fungus
             Clear();
 
 		}
+
+        private void Update()
+        {
+            emotionalSlider.value += Time.deltaTime * Input.GetAxis ("Horizontal") * 2;
+        }
 		
 		protected virtual void OnDisable()
 		{
