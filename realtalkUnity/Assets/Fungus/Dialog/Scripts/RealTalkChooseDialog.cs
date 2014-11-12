@@ -67,9 +67,18 @@ namespace Fungus
         {
             emotionalSlider.value += Time.deltaTime * Input.GetAxis ("Horizontal") * 2;
 
-            em1.isOn = Input.GetKeyDown (KeyCode.JoystickButton18);
-            em2.isOn = Input.GetKeyDown (KeyCode.JoystickButton16);
-            em3.isOn = Input.GetKeyDown (KeyCode.JoystickButton17);
+            if(Input.GetKeyDown (KeyCode.JoystickButton18))
+            {
+                em1.isOn = true;
+            }
+            if(Input.GetKeyDown (KeyCode.JoystickButton17))
+            {
+                em2.isOn = true;
+            }
+            if(Input.GetKeyDown (KeyCode.JoystickButton16))
+            {
+                em3.isOn = true;
+            }
 
 
         }
