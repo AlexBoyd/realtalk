@@ -106,7 +106,7 @@ RectTransform:
   m_RootOrder: 1
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: 9.53674316e-07, y: -108}
+  m_AnchoredPosition: {x: 9.53674316e-07, y: 3.81469727e-06}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &7499355
@@ -351,7 +351,7 @@ RectTransform:
   m_RootOrder: 2
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 50, y: 50.0000038}
+  m_AnchoredPosition: {x: 438, y: -41.0699883}
   m_SizeDelta: {x: 216, y: 216}
   m_Pivot: {x: .5, y: 0}
 --- !u!114 &155950094
@@ -390,7 +390,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 1938736646}
+  m_TargetGraphic: {fileID: 0}
   toggleTransition: 1
   graphic: {fileID: 7499355}
   m_Group: {fileID: 923772750}
@@ -864,7 +864,7 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 50, y: 50.0000038}
+  m_AnchoredPosition: {x: 0, y: -41.0699883}
   m_SizeDelta: {x: 216, y: 216}
   m_Pivot: {x: .5, y: 0}
 --- !u!114 &441990108
@@ -903,7 +903,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 1938736646}
+  m_TargetGraphic: {fileID: 0}
   toggleTransition: 1
   graphic: {fileID: 1127507683}
   m_Group: {fileID: 923772750}
@@ -1126,7 +1126,7 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: 0, y: -108}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &613466115
@@ -1768,7 +1768,7 @@ RectTransform:
   m_RootOrder: 1
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: -60, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 32, y: 32}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &1011340079
@@ -1840,49 +1840,37 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 11400010, guid: 44454b0ce06414c738a28fe6c6373fe6, type: 2}
-      propertyPath: m_TargetGraphic
-      value: 
-      objectReference: {fileID: 1938736646}
-    - target: {fileID: 11400020, guid: 44454b0ce06414c738a28fe6c6373fe6, type: 2}
-      propertyPath: m_TargetGraphic
-      value: 
-      objectReference: {fileID: 1938736646}
-    - target: {fileID: 22300000, guid: 44454b0ce06414c738a28fe6c6373fe6, type: 2}
-      propertyPath: m_Camera
-      value: 
-      objectReference: {fileID: 1511617000}
-    - target: {fileID: 11400090, guid: 44454b0ce06414c738a28fe6c6373fe6, type: 2}
-      propertyPath: m_TargetGraphic
-      value: 
-      objectReference: {fileID: 1938736646}
-    - target: {fileID: 22300002, guid: 44454b0ce06414c738a28fe6c6373fe6, type: 2}
-      propertyPath: m_Camera
-      value: 
-      objectReference: {fileID: 1511617000}
-    - target: {fileID: 22400000, guid: 44454b0ce06414c738a28fe6c6373fe6, type: 2}
-      propertyPath: m_AnchoredPosition.y
-      value: -108
-      objectReference: {fileID: 0}
-    - target: {fileID: 22400006, guid: 44454b0ce06414c738a28fe6c6373fe6, type: 2}
+    - target: {fileID: 22400030, guid: 44454b0ce06414c738a28fe6c6373fe6, type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 50
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 22400006, guid: 44454b0ce06414c738a28fe6c6373fe6, type: 2}
-      propertyPath: m_AnchoredPosition.y
-      value: 50.0000038
-      objectReference: {fileID: 0}
-    - target: {fileID: 22400010, guid: 44454b0ce06414c738a28fe6c6373fe6, type: 2}
+    - target: {fileID: 22400046, guid: 44454b0ce06414c738a28fe6c6373fe6, type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 50
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 22400010, guid: 44454b0ce06414c738a28fe6c6373fe6, type: 2}
-      propertyPath: m_AnchoredPosition.y
-      value: 50.0000038
+    - target: {fileID: 22400048, guid: 44454b0ce06414c738a28fe6c6373fe6, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 22400014, guid: 44454b0ce06414c738a28fe6c6373fe6, type: 2}
-      propertyPath: m_AnchoredPosition.y
-      value: -108
+    - target: {fileID: 22400064, guid: 44454b0ce06414c738a28fe6c6373fe6, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22400068, guid: 44454b0ce06414c738a28fe6c6373fe6, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 44454b0ce06414c738a28fe6c6373fe6, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: 44454b0ce06414c738a28fe6c6373fe6, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100064, guid: 44454b0ce06414c738a28fe6c6373fe6, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 44454b0ce06414c738a28fe6c6373fe6, type: 2}
@@ -2789,7 +2777,7 @@ RectTransform:
   m_RootOrder: 1
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: -60, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 32, y: 32}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &1376917361
@@ -2853,7 +2841,7 @@ RectTransform:
   m_RootOrder: 2
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: -600, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: .5, y: .5}
 --- !u!120 &1413137018
@@ -3609,7 +3597,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 2
   m_RenderMode: 1
-  m_Camera: {fileID: 1511617000}
+  m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -3689,7 +3677,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 1938736646}
+  m_TargetGraphic: {fileID: 0}
   toggleTransition: 1
   graphic: {fileID: 1277175303}
   m_Group: {fileID: 923772750}
@@ -3739,7 +3727,7 @@ RectTransform:
   m_RootOrder: 1
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: -60, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 32, y: 32}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &1805040901
@@ -3819,7 +3807,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 2
   m_RenderMode: 1
-  m_Camera: {fileID: 1511617000}
+  m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -3890,7 +3878,7 @@ RectTransform:
   m_RootOrder: 1
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: -600, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: .5, y: .5}
 --- !u!120 &1826165248

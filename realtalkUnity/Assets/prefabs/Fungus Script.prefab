@@ -1551,7 +1551,7 @@ MonoBehaviour:
   notes: 
 --- !u!114 &11400008
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100048}
@@ -1564,7 +1564,7 @@ MonoBehaviour:
   key: is52Annoyed11
 --- !u!114 &11400010
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100048}
@@ -1577,7 +1577,7 @@ MonoBehaviour:
   key: is51Excited11
 --- !u!114 &11400012
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100048}
@@ -2016,7 +2016,7 @@ MonoBehaviour:
     stringValue: 
 --- !u!114 &11400058
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100048}
@@ -2749,7 +2749,7 @@ MonoBehaviour:
   - {fileID: 11400102}
 --- !u!114 &11400132
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100048}
@@ -2782,7 +2782,7 @@ MonoBehaviour:
   - {fileID: 11400012}
   - {fileID: 11400010}
   - {fileID: 11400008}
-  startSequence: {fileID: 11400144}
+  startSequence: {fileID: 0}
   executeOnStart: 1
   settings:
     runSlowInEditor: 0

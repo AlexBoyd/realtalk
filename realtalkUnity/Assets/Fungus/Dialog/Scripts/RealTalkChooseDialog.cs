@@ -58,7 +58,6 @@ namespace Fungus
             em2.gameObject.SetActive(RTMode == RealTalkMode.MoodMode);
             em3.gameObject.SetActive(RTMode == RealTalkMode.MoodMode);
             timeoutSlider.gameObject.SetActive(false);
-            em2.isOn = true;
 
             Clear();
 
@@ -68,9 +67,18 @@ namespace Fungus
         {
             emotionalSlider.value += Time.deltaTime * Input.GetAxis ("Horizontal") * 2;
 
-            em1.isOn = Input.GetKeyDown (KeyCode.JoystickButton18);
-            em2.isOn = Input.GetKeyDown (KeyCode.JoystickButton16);
-            em3.isOn = Input.GetKeyDown (KeyCode.JoystickButton17);
+            if(Input.GetKeyDown (KeyCode.JoystickButton18))
+            {
+                em1.isOn = true;
+            }
+            if(Input.GetKeyDown (KeyCode.JoystickButton16))
+            {
+                em2.isOn = true;
+            }
+            if(Input.GetKeyDown (KeyCode.JoystickButton17))
+            {
+                em3.isOn = true;
+            }
 
 
         }
