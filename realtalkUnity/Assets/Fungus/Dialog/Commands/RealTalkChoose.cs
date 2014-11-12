@@ -111,20 +111,22 @@ namespace Fungus
 
                 case RealTalkChooseDialog.RealTalkMode.MoodMode:
 
-                    dialog.Choose(chooseText, dialogOptions, 0, null);
-                    options.Sort ((a, b) => a.valence.CompareTo (b.valence));
-                    if (dialog.em1.isOn)
-                    {
-                        ExecuteSequence (options [0].targetSequence);
-                    }
-                    if (dialog.em2.isOn)
-                    {
-                        ExecuteSequence (options [1].targetSequence);
-                    }
-                    if (dialog.em3.isOn)
-                    {
-                        ExecuteSequence (options [2].targetSequence);
-                    }
+                    dialog.Choose(chooseText, dialogOptions, timeoutDuration, delegate {
+                        options.Sort ((a, b) => a.valence.CompareTo (b.valence));
+                        if (dialog.em1.isOn)
+                        {
+                            ExecuteSequence (options [0].targetSequence);
+                        }
+                        if (dialog.em2.isOn)
+                        {
+                            ExecuteSequence (options [1].targetSequence);
+                        }
+                        if (dialog.em3.isOn)
+                        {
+                            ExecuteSequence (options [2].targetSequence);
+                        }
+                    });
+
                     options.Clear();
 
                     break;
