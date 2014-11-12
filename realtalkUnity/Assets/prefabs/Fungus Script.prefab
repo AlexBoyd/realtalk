@@ -9,6 +9,9 @@ GameObject:
   m_Component:
   - 4: {fileID: 400000}
   - 114: {fileID: 11400014}
+  - 114: {fileID: 11400384}
+  - 114: {fileID: 11400382}
+  - 114: {fileID: 11400380}
   m_Layer: 0
   m_Name: S6_Excited
   m_TagString: Untagged
@@ -25,6 +28,9 @@ GameObject:
   m_Component:
   - 4: {fileID: 400002}
   - 114: {fileID: 11400016}
+  - 114: {fileID: 11400362}
+  - 114: {fileID: 11400360}
+  - 114: {fileID: 11400358}
   m_Layer: 0
   m_Name: S6_Coy
   m_TagString: Untagged
@@ -41,6 +47,10 @@ GameObject:
   m_Component:
   - 4: {fileID: 400004}
   - 114: {fileID: 11400018}
+  - 114: {fileID: 11400356}
+  - 114: {fileID: 11400354}
+  - 114: {fileID: 11400352}
+  - 114: {fileID: 11400350}
   m_Layer: 0
   m_Name: S6_Annoyed
   m_TagString: Untagged
@@ -332,10 +342,10 @@ GameObject:
   - 4: {fileID: 400036}
   - 114: {fileID: 11400086}
   - 114: {fileID: 11400080}
-  - 114: {fileID: 11400006}
   - 114: {fileID: 11400004}
   - 114: {fileID: 11400002}
   - 114: {fileID: 11400000}
+  - 114: {fileID: 11400370}
   m_Layer: 0
   m_Name: 56
   m_TagString: Untagged
@@ -735,6 +745,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400074}
   - 114: {fileID: 11400342}
+  - 114: {fileID: 11400364}
   m_Layer: 0
   m_Name: Not right for this
   m_TagString: Untagged
@@ -751,6 +762,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400076}
   - 114: {fileID: 11400344}
+  - 114: {fileID: 11400348}
   m_Layer: 0
   m_Name: Yes
   m_TagString: Untagged
@@ -767,8 +779,105 @@ GameObject:
   m_Component:
   - 4: {fileID: 400078}
   - 114: {fileID: 11400346}
+  - 114: {fileID: 11400376}
   m_Layer: 0
-  m_Name: May have a post for you
+  m_Name: May have a partt for you
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100080
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400080}
+  - 114: {fileID: 11400006}
+  m_Layer: 0
+  m_Name: Player_Excited
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100082
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400082}
+  - 114: {fileID: 11400366}
+  m_Layer: 0
+  m_Name: Hank
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100084
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400084}
+  - 114: {fileID: 11400368}
+  m_Layer: 0
+  m_Name: Director_Satisfied
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100086
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400086}
+  - 114: {fileID: 11400372}
+  m_Layer: 0
+  m_Name: Director_Dissapointed
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100088
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400088}
+  - 114: {fileID: 11400374}
+  m_Layer: 0
+  m_Name: Player_Annoyed
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100090
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400090}
+  - 114: {fileID: 11400378}
+  m_Layer: 0
+  m_Name: Player_Coy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1111,6 +1220,12 @@ Transform:
   - {fileID: 400004}
   - {fileID: 400002}
   - {fileID: 400000}
+  - {fileID: 400084}
+  - {fileID: 400088}
+  - {fileID: 400090}
+  - {fileID: 400080}
+  - {fileID: 400082}
+  - {fileID: 400086}
   m_Father: {fileID: 0}
   m_RootOrder: 0
 --- !u!4 &400050
@@ -1293,6 +1408,78 @@ Transform:
   m_Children: []
   m_Father: {fileID: 400048}
   m_RootOrder: 18
+--- !u!4 &400080
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100080}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400048}
+  m_RootOrder: 42
+--- !u!4 &400082
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100082}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400048}
+  m_RootOrder: 43
+--- !u!4 &400084
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100084}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400048}
+  m_RootOrder: 39
+--- !u!4 &400086
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100086}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400048}
+  m_RootOrder: 44
+--- !u!4 &400088
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100088}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400048}
+  m_RootOrder: 40
+--- !u!4 &400090
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100090}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400048}
+  m_RootOrder: 41
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1307,8 +1494,8 @@ MonoBehaviour:
   errorMessage: 
   indentLevel: 0
   selected: 0
-  optionText: 
-  targetSequence: {fileID: 0}
+  optionText: Excited
+  targetSequence: {fileID: 11400014}
   valence: 0
   hideOnSelected: 0
 --- !u!114 &11400002
@@ -1325,8 +1512,8 @@ MonoBehaviour:
   errorMessage: 
   indentLevel: 0
   selected: 0
-  optionText: 
-  targetSequence: {fileID: 0}
+  optionText: Coy
+  targetSequence: {fileID: 11400016}
   valence: 0
   hideOnSelected: 0
 --- !u!114 &11400004
@@ -1343,8 +1530,8 @@ MonoBehaviour:
   errorMessage: 
   indentLevel: 0
   selected: 0
-  optionText: 
-  targetSequence: {fileID: 0}
+  optionText: Annoyed
+  targetSequence: {fileID: 11400018}
   valence: 0
   hideOnSelected: 0
 --- !u!114 &11400006
@@ -1352,16 +1539,16 @@ MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100036}
+  m_GameObject: {fileID: 100080}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69d14ccff3ce441ecba28c9a53b98a08, type: 3}
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  errorMessage: 
-  indentLevel: 0
-  selected: 0
-  commentText: 
+  nameText: Player_Excited
+  nameColor: {r: 1, g: 1, b: 1, a: 1}
+  profileSprite: {fileID: 21300000, guid: f2e901e070fff48cda67e3f446d80e79, type: 3}
+  notes: 
 --- !u!114 &11400008
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1419,7 +1606,10 @@ MonoBehaviour:
     width: 100
     height: 40
   description: 
-  commandList: []
+  commandList:
+  - {fileID: 11400384}
+  - {fileID: 11400382}
+  - {fileID: 11400380}
 --- !u!114 &11400016
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1438,7 +1628,10 @@ MonoBehaviour:
     width: 100
     height: 40
   description: 
-  commandList: []
+  commandList:
+  - {fileID: 11400362}
+  - {fileID: 11400360}
+  - {fileID: 11400358}
 --- !u!114 &11400018
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1457,7 +1650,11 @@ MonoBehaviour:
     width: 100
     height: 40
   description: 
-  commandList: []
+  commandList:
+  - {fileID: 11400356}
+  - {fileID: 11400354}
+  - {fileID: 11400352}
+  - {fileID: 11400350}
 --- !u!114 &11400020
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1488,7 +1685,7 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   storyText: Haha, sounds like a latte-date.
-  character: {fileID: 0}
+  character: {fileID: 11400366}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!114 &11400024
@@ -1508,7 +1705,7 @@ MonoBehaviour:
   storyText: That sounds wonderful! Honestly it's getting a bit cold out here and
     I was just thinking of getting a latte. We just might have to stay there and talk
     for a while too!
-  character: {fileID: 0}
+  character: {fileID: 11400006}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!114 &11400026
@@ -1526,7 +1723,7 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   storyText: I wouldn't have it any other way.
-  character: {fileID: 0}
+  character: {fileID: 11400366}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!114 &11400028
@@ -1559,7 +1756,7 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   storyText: Hmm, I could go for a latte? You buying?
-  character: {fileID: 0}
+  character: {fileID: 11400378}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!114 &11400032
@@ -1592,7 +1789,7 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   storyText: Um, I think I'll pass. I'm just here to walk.
-  character: {fileID: 0}
+  character: {fileID: 11400374}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!114 &11400036
@@ -1752,7 +1949,7 @@ MonoBehaviour:
   selected: 0
   storyText: CUT! Ok, I don't think you are taking this audition seriously. You should
     leave. Now.
-  character: {fileID: 0}
+  character: {fileID: 11400372}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!114 &11400052
@@ -1959,7 +2156,7 @@ MonoBehaviour:
   selected: 0
   storyText: Alright, I'm going to stop you right there. Let's try it from the top,
     one more time.
-  character: {fileID: 0}
+  character: {fileID: 11400372}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!114 &11400072
@@ -2050,7 +2247,7 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   storyText: Yes please! I get a bit lonely walking out here by myself all the time.
-  character: {fileID: 0}
+  character: {fileID: 11400006}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!114 &11400082
@@ -2069,7 +2266,7 @@ MonoBehaviour:
   selected: 0
   storyText: Maaaaybe. I usually come out here just to enjoy the park by myself...
     but maybe I could make an exception.
-  character: {fileID: 0}
+  character: {fileID: 11400378}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!114 &11400084
@@ -2087,7 +2284,7 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   storyText: "Ummm no. I came out here to clear my mind, that\u2019s it."
-  character: {fileID: 0}
+  character: {fileID: 11400374}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!114 &11400086
@@ -2113,7 +2310,7 @@ MonoBehaviour:
   - {fileID: 11400004}
   - {fileID: 11400002}
   - {fileID: 11400000}
-  - {fileID: 11400006}
+  - {fileID: 11400370}
 --- !u!114 &11400088
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2251,7 +2448,7 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   storyText: Good. Keep going.
-  character: {fileID: 0}
+  character: {fileID: 11400368}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!114 &11400102
@@ -2344,7 +2541,7 @@ MonoBehaviour:
   selected: 0
   storyText: Well I just love going for walks on days like today. I love the sounds,
     the smells... (towards Hank) the sights...
-  character: {fileID: 0}
+  character: {fileID: 11400006}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!114 &11400112
@@ -2362,7 +2559,7 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   storyText: Oh you know, just walking around myself, looking at flowers.
-  character: {fileID: 0}
+  character: {fileID: 11400378}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!114 &11400114
@@ -2381,7 +2578,7 @@ MonoBehaviour:
   selected: 0
   storyText: Uhhhh just trying to go for a walk by myself. I don't really have anything
     to talk about.
-  character: {fileID: 0}
+  character: {fileID: 11400374}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!114 &11400116
@@ -2472,7 +2669,7 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   storyText: Good. Keep going.
-  character: {fileID: 0}
+  character: {fileID: 11400368}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!114 &11400126
@@ -2574,11 +2771,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scriptScrollPos: {x: 1374.41272, y: 0}
+  scriptScrollPos: {x: 1287.59839, y: 96.0046387}
   commandScrollPos: {x: 0, y: 0}
   commandViewWidth: 350
-  selectedSequence: {fileID: 11400144}
-  selectedCommand: {fileID: 0}
+  selectedSequence: {fileID: 11400346}
+  selectedCommand: {fileID: 11400376}
   variables:
   - {fileID: 11400132}
   - {fileID: 11400058}
@@ -2632,7 +2829,7 @@ MonoBehaviour:
   indentLevel: 1
   selected: 0
   storyText: It sure is! I just love all these peonies! They smell wonderful!
-  character: {fileID: 0}
+  character: {fileID: 11400006}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!114 &11400140
@@ -2699,7 +2896,7 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   storyText: Sounds good to me!
-  character: {fileID: 0}
+  character: {fileID: 11400006}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!114 &11400148
@@ -2723,7 +2920,7 @@ MonoBehaviour:
     Sound good?
 
 '
-  character: {fileID: 0}
+  character: {fileID: 11400368}
   voiceOverClip: {fileID: 8300000, guid: 203b1becb4119421ab0ea00361ebce9d, type: 3}
   showOnce: 0
 --- !u!114 &11400150
@@ -2766,7 +2963,7 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   storyText: Good. Keep going.
-  character: {fileID: 0}
+  character: {fileID: 11400368}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!114 &11400154
@@ -2784,7 +2981,7 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   storyText: Hah, yeah it is, isn't it.
-  character: {fileID: 0}
+  character: {fileID: 11400378}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!114 &11400156
@@ -2839,7 +3036,7 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   storyText: Hmm, that's not quite what I'm looking for. Can you try it again?
-  character: {fileID: 0}
+  character: {fileID: 11400372}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!114 &11400162
@@ -2859,7 +3056,7 @@ MonoBehaviour:
   storyText: 'Yes! It was great to see you too. I''d like to see you again soon!
 
 '
-  character: {fileID: 0}
+  character: {fileID: 11400374}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!114 &11400164
@@ -2902,7 +3099,7 @@ MonoBehaviour:
   selected: 0
   chooseText: "Hmm... let's try that one again. I want to hear coy, like shy or reserved\u2026
     but still flirty"
-  character: {fileID: 0}
+  character: {fileID: 11400372}
   voiceOverClip: {fileID: 0}
   timeoutDuration: 0
   fungus: {fileID: 0}
@@ -2975,7 +3172,7 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   storyText: Yeah, good to see you too... maybe call me?
-  character: {fileID: 0}
+  character: {fileID: 11400006}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!114 &11400176
@@ -3016,7 +3213,7 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   chooseText: Ok, this first line I want you to deliver excitedly.
-  character: {fileID: 0}
+  character: {fileID: 11400368}
   voiceOverClip: {fileID: 8300000, guid: 0a7665cf7c9964cecbd5491cc86f16b7, type: 3}
   timeoutDuration: 0
   fungus: {fileID: 0}
@@ -3113,7 +3310,7 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   chooseText: Great, that's just great. Alright now try the same line, but Coy...
-  character: {fileID: 0}
+  character: {fileID: 11400368}
   voiceOverClip: {fileID: 0}
   timeoutDuration: 0
   fungus: {fileID: 0}
@@ -3186,7 +3383,7 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   storyText: Yes! It was great to see you too. I'd like to see you again soon!
-  character: {fileID: 0}
+  character: {fileID: 11400006}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!114 &11400198
@@ -3228,7 +3425,7 @@ MonoBehaviour:
   storyText: 'Yes! It was great to see you too. I''d like to see you again soon!
 
 '
-  character: {fileID: 0}
+  character: {fileID: 11400378}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!114 &11400202
@@ -3261,7 +3458,7 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   storyText: Hmm, that's not quite what I'm looking for. Can you try it again?
-  character: {fileID: 0}
+  character: {fileID: 11400372}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!114 &11400206
@@ -3304,7 +3501,7 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   storyText: What? Yeah... I guess so.
-  character: {fileID: 0}
+  character: {fileID: 11400374}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!114 &11400210
@@ -3354,7 +3551,7 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   chooseText: Well hello there. Beautiful day, isn't it?
-  character: {fileID: 0}
+  character: {fileID: 11400366}
   voiceOverClip: {fileID: 0}
   timeoutDuration: 0
   fungus: {fileID: 0}
@@ -3427,7 +3624,7 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   storyText: Ok, hi. Ready to get started?
-  character: {fileID: 0}
+  character: {fileID: 11400366}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!114 &11400222
@@ -3446,7 +3643,7 @@ MonoBehaviour:
   selected: 0
   storyText: "Sorry, he keeps wandering off. He's the producer's son... mama mia \u2018e
     un ragazzo incompetente."
-  character: {fileID: 0}
+  character: {fileID: 11400372}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!114 &11400224
@@ -3466,7 +3663,7 @@ MonoBehaviour:
   storyText: 'Wait, where did he go? HANK! GET IN
 
     HERE! ANOTHER GIRL IS AUDITIONING! questo stronzo'
-  character: {fileID: 0}
+  character: {fileID: 11400368}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!114 &11400226
@@ -3486,7 +3683,7 @@ MonoBehaviour:
   storyText: "Yes, that sounds good. Let's move on to the scene. You are going for
     a walk through a park on a summer day, and a man approaches you.  Let me just
     get Hank in here\u2026 he will be your dialog partner."
-  character: {fileID: 0}
+  character: {fileID: 11400368}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!114 &11400228
@@ -3504,7 +3701,7 @@ MonoBehaviour:
   indentLevel: 1
   selected: 0
   storyText: Yeah, good to see you too... maybe call me?
-  character: {fileID: 0}
+  character: {fileID: 11400378}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!114 &11400230
@@ -3547,7 +3744,7 @@ MonoBehaviour:
   selected: 0
   chooseText: "Hmm... let's try that one again. I want to hear coy, like shy or reserved\u2026
     but still flirty"
-  character: {fileID: 0}
+  character: {fileID: 11400372}
   voiceOverClip: {fileID: 0}
   timeoutDuration: 0
   fungus: {fileID: 0}
@@ -3620,7 +3817,7 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   storyText: Yeah, good to see you too... maybe call me?
-  character: {fileID: 0}
+  character: {fileID: 11400374}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!114 &11400242
@@ -3672,7 +3869,7 @@ MonoBehaviour:
   selected: 0
   storyText: That sounds just wonderful! Here, take my number and call me when you
     want that coffee...
-  character: {fileID: 0}
+  character: {fileID: 11400006}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!114 &11400248
@@ -3705,7 +3902,7 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   storyText: Hmm, I'm not sure when that will be. We'll see...
-  character: {fileID: 0}
+  character: {fileID: 11400378}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!114 &11400252
@@ -3738,7 +3935,7 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   storyText: Yeah, whatever. I could use the coffee.
-  character: {fileID: 0}
+  character: {fileID: 11400374}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!114 &11400256
@@ -3909,7 +4106,7 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   storyText: Sounds intriguing. I hope you'll show me more...
-  character: {fileID: 0}
+  character: {fileID: 11400006}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!114 &11400274
@@ -3942,7 +4139,7 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   storyText: Ehm no... I should probably stick to my route.
-  character: {fileID: 0}
+  character: {fileID: 11400374}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!114 &11400278
@@ -3960,7 +4157,7 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   storyText: Hmm, I guess that could be fun... ok haha, who doesn't like cakes
-  character: {fileID: 0}
+  character: {fileID: 11400378}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!114 &11400280
@@ -4146,7 +4343,7 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   storyText: That would be wonderful
-  character: {fileID: 0}
+  character: {fileID: 11400366}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!114 &11400300
@@ -4166,7 +4363,7 @@ MonoBehaviour:
   storyText: Peonies are my favorite! That's amazing that you like them too... You
     know, I don't ever do this, but against my better judgement, would you want to
     grab a coffee?
-  character: {fileID: 0}
+  character: {fileID: 11400006}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!114 &11400302
@@ -4234,7 +4431,7 @@ MonoBehaviour:
   selected: 0
   storyText: Flowers aren't really my thing. I usually come to the park just to clear
     my head.
-  character: {fileID: 0}
+  character: {fileID: 11400374}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!114 &11400310
@@ -4349,7 +4546,7 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   storyText: Sure, you can join...
-  character: {fileID: 0}
+  character: {fileID: 11400006}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!114 &11400322
@@ -4382,7 +4579,7 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   storyText: Well, this is a bit awkard so I'm leaving now.
-  character: {fileID: 0}
+  character: {fileID: 11400366}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!114 &11400326
@@ -4400,7 +4597,7 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   storyText: Sure, you can join...
-  character: {fileID: 0}
+  character: {fileID: 11400378}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!114 &11400328
@@ -4433,7 +4630,7 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   storyText: Ugh, I guess so. But I don't have anything to talk about.
-  character: {fileID: 0}
+  character: {fileID: 11400374}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!114 &11400332
@@ -4516,7 +4713,7 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   storyText: Hmm. Continue.
-  character: {fileID: 0}
+  character: {fileID: 11400368}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!114 &11400340
@@ -4534,7 +4731,7 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   storyText: Hmm. Continue/
-  character: {fileID: 0}
+  character: {fileID: 11400368}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!114 &11400342
@@ -4555,7 +4752,8 @@ MonoBehaviour:
     width: 104
     height: 40
   description: 
-  commandList: []
+  commandList:
+  - {fileID: 11400364}
 --- !u!114 &11400344
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4574,7 +4772,8 @@ MonoBehaviour:
     width: 100
     height: 40
   description: 
-  commandList: []
+  commandList:
+  - {fileID: 11400348}
 --- !u!114 &11400346
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4588,12 +4787,336 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -108
-    y: 403
-    width: 141
+    x: -109
+    y: 410
+    width: 143
     height: 40
   description: 
-  commandList: []
+  commandList:
+  - {fileID: 11400376}
+--- !u!114 &11400348
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  errorMessage: 
+  indentLevel: 0
+  selected: 0
+  storyText: Aaand cut. Wow... Colour me impressed. You're a really good fit for this,
+    and you know what, I think you've just earned yourself the role of the leading
+    lady! Thanks so much for coming in.
+  character: {fileID: 11400368}
+  voiceOverClip: {fileID: 0}
+  showOnce: 0
+--- !u!114 &11400350
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  errorMessage: 
+  indentLevel: 0
+  selected: 0
+  targetSequence: {fileID: 11400342}
+--- !u!114 &11400352
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  errorMessage: 
+  indentLevel: 0
+  selected: 0
+  storyText: Ookay
+  character: {fileID: 11400378}
+  voiceOverClip: {fileID: 0}
+  showOnce: 0
+--- !u!114 &11400354
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  errorMessage: 
+  indentLevel: 0
+  selected: 0
+  storyText: Oh come on, it's not like that. It's a compliment.
+  character: {fileID: 11400366}
+  voiceOverClip: {fileID: 0}
+  showOnce: 0
+--- !u!114 &11400356
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  errorMessage: 
+  indentLevel: 0
+  selected: 0
+  storyText: Most women? I guess I'm just one more then, huh?
+  character: {fileID: 11400374}
+  voiceOverClip: {fileID: 0}
+  showOnce: 0
+--- !u!114 &11400358
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  errorMessage: 
+  indentLevel: 0
+  selected: 0
+  targetSequence: {fileID: 11400346}
+--- !u!114 &11400360
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  errorMessage: 
+  indentLevel: 0
+  selected: 0
+  storyText: Haha, I guess I've got a lot to learn about you
+  character: {fileID: 11400366}
+  voiceOverClip: {fileID: 0}
+  showOnce: 0
+--- !u!114 &11400362
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  errorMessage: 
+  indentLevel: 0
+  selected: 0
+  storyText: Well, you don't really know what I'm thinking... do you?
+  character: {fileID: 11400378}
+  voiceOverClip: {fileID: 0}
+  showOnce: 0
+--- !u!114 &11400364
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  errorMessage: 
+  indentLevel: 0
+  selected: 0
+  storyText: CUT! You know, you did some interesting things, but I just don't think
+    you're the right person for our production. Good luck in the future.
+  character: {fileID: 11400372}
+  voiceOverClip: {fileID: 0}
+  showOnce: 0
+--- !u!114 &11400366
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: Hank
+  nameColor: {r: 1, g: 1, b: 1, a: 1}
+  profileSprite: {fileID: 21300000, guid: f7484a661774243b193bebc6e3ae5120, type: 3}
+  notes: 
+--- !u!114 &11400368
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: Director_Satisfied
+  nameColor: {r: 1, g: 1, b: 1, a: 1}
+  profileSprite: {fileID: 21300000, guid: e229de2b8fa934821910b2816f32c201, type: 3}
+  notes: 
+--- !u!114 &11400370
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0af73916f367a42a39c2400b3da9e283, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  errorMessage: 
+  indentLevel: 0
+  selected: 0
+  chooseText: You know, I have to say most women I meet aren't so forward...
+  character: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  timeoutDuration: 0
+  fungus: {fileID: 0}
+--- !u!114 &11400372
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: Director_Dissapointed
+  nameColor: {r: 1, g: 1, b: 1, a: 1}
+  profileSprite: {fileID: 21300000, guid: b2cf28596a376429da34c53dfcf6d295, type: 3}
+  notes: 
+--- !u!114 &11400374
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: Player_Annoyed
+  nameColor: {r: 1, g: 1, b: 1, a: 1}
+  profileSprite: {fileID: 21300000, guid: d18d934d212d442ee90406fd28e6eef6, type: 3}
+  notes: 
+--- !u!114 &11400376
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  errorMessage: 
+  indentLevel: 0
+  selected: 0
+  storyText: Aaaan cut! You know, that wasn't half bad! You're not a leading lady,
+    but we just might have a part for you in our production. Thanks for coming in!
+  character: {fileID: 11400368}
+  voiceOverClip: {fileID: 0}
+  showOnce: 0
+--- !u!114 &11400378
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: Player_Coy
+  nameColor: {r: 1, g: 1, b: 1, a: 1}
+  profileSprite: {fileID: 21300000, guid: 088536216c5364d2ba277595d378c215, type: 3}
+  notes: 
+--- !u!114 &11400380
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  errorMessage: 
+  indentLevel: 0
+  selected: 0
+  targetSequence: {fileID: 11400346}
+--- !u!114 &11400382
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  errorMessage: 
+  indentLevel: 0
+  selected: 0
+  storyText: Hah! I'm not sure how I feel about that!
+  character: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showOnce: 0
+--- !u!114 &11400384
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  errorMessage: 
+  indentLevel: 0
+  selected: 0
+  storyText: Well, you'll learn fast that I'm not most woman.
+  character: {fileID: 11400006}
+  voiceOverClip: {fileID: 0}
+  showOnce: 0
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
