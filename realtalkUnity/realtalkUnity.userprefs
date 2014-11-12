@@ -1,11 +1,17 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Fungus/Dialog/Scripts/RealTalkChooseDialog.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Fungus/Dialog/Commands/Say.cs">
     <Files>
-      <File FileName="Assets/Fungus/Audio/Scripts/MusicController.cs" Line="75" Column="1" />
-      <File FileName="Assets/Fungus/Dialog/Commands/RealTalkChoose.cs" Line="1" Column="1" />
-      <File FileName="Assets/ControllerButtonClick.cs" Line="20" Column="45" />
-      <File FileName="Assets/Fungus/Dialog/Scripts/RealTalkChooseDialog.cs" Line="37" Column="51" />
+      <File FileName="Assets/Fungus/FungusScript/Editor/FungusScriptWindow.cs" Line="1" Column="1" />
+      <File FileName="Assets/Fungus/Audio/Scripts/MusicController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Fungus/Dialog/Commands/RealTalkChoose.cs" Line="59" Column="44" />
+      <File FileName="Assets/ControllerButtonClick.cs" Line="1" Column="1" />
+      <File FileName="Assets/Fungus/Dialog/Scripts/RealTalkChooseDialog.cs" Line="124" Column="5" />
+      <File FileName="Assets/Fungus/FungusScript/Editor/SequenceEditor.cs" Line="1" Column="1" />
+      <File FileName="Assets/Fungus/Dialog/Scripts/SayDialog.cs" Line="30" Column="84" />
+      <File FileName="Assets/Fungus/Dialog/Commands/Say.cs" Line="59" Column="24" />
+      <File FileName="Assets/Fungus/FungusScript/Scripts/Command.cs" Line="68" Column="12" />
+      <File FileName="Assets/Fungus/Dialog/Scripts/Dialog.cs" Line="510" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

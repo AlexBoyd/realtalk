@@ -56,8 +56,14 @@ namespace Fungus
             {
                 dialog.ShowDialog (true);
                 dialog.SetCharacter (character);
+				float voiceOverDuration = voiceOverClip != null ? voiceOverClip.length : timeoutDuration;
                 
                 List<RealTalkChooseDialog.Option> dialogOptions = new List<RealTalkChooseDialog.Option> ();
+
+				if (voiceOverClip != null)
+				{
+					MusicController.GetInstance ().PlaySound (voiceOverClip, 1f);
+				}
                 switch (dialog.RTMode)
                 {
                 case RealTalkChooseDialog.RealTalkMode.Control:
@@ -87,19 +93,16 @@ namespace Fungus
                     
                     options.Clear ();
                     
-                    if (voiceOverClip != null)
-                    {
-                        MusicController.GetInstance ().PlaySound (voiceOverClip, 1f);
-                    }
                     
-                    dialog.Choose (chooseText, dialogOptions, 0, delegate {
+                    
+                    dialog.Choose (chooseText, dialogOptions, timeoutDuration, delegate {
                         dialog.ShowDialog (false);
                         Continue ();
                     });
                     break;
 
                 case RealTalkChooseDialog.RealTalkMode.Slider:
-                    dialog.Choose (chooseText, dialogOptions, timeoutDuration, delegate {
+					dialog.Choose (chooseText, dialogOptions, voiceOverDuration, delegate {
                         dialog.ShowDialog (false);
                         float val = dialog.emotionalSlider.value;
                         options.Sort ((a, b) => Math.Abs (val - a.valence).CompareTo (Math.Abs (val - b.valence)));
@@ -113,7 +116,7 @@ namespace Fungus
 
                 case RealTalkChooseDialog.RealTalkMode.MoodMode:
 
-                    dialog.Choose(chooseText, dialogOptions, timeoutDuration, delegate {
+					dialog.Choose(chooseText, dialogOptions, voiceOverDuration, delegate {
                         options.Sort ((a, b) => a.valence.CompareTo (b.valence));
                         if (dialog.em1.isOn)
                         {

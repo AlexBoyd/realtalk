@@ -679,8 +679,6 @@ GameObject:
   - 114: {fileID: 11400210}
   - 114: {fileID: 11400226}
   - 114: {fileID: 11400228}
-  - 114: {fileID: 11400224}
-  - 114: {fileID: 11400222}
   - 114: {fileID: 11400220}
   - 114: {fileID: 11400218}
   - 114: {fileID: 11400216}
@@ -1547,11 +1545,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: Player_Excited
   nameColor: {r: 1, g: 1, b: 1, a: 1}
-  profileSprite: {fileID: 21300000, guid: f2e901e070fff48cda67e3f446d80e79, type: 3}
+  profileSprite: {fileID: 21300000, guid: 5076f0f388c4945d68c55f2042741ac8, type: 3}
   notes: 
 --- !u!114 &11400008
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100048}
@@ -1564,7 +1562,7 @@ MonoBehaviour:
   key: is52Annoyed11
 --- !u!114 &11400010
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100048}
@@ -1577,7 +1575,7 @@ MonoBehaviour:
   key: is51Excited11
 --- !u!114 &11400012
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100048}
@@ -1686,7 +1684,7 @@ MonoBehaviour:
   selected: 0
   storyText: Haha, sounds like a latte-date.
   character: {fileID: 11400366}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: a9ded89dd5e7b40d1b1a0675b69ad03d, type: 3}
   showOnce: 0
 --- !u!114 &11400024
 MonoBehaviour:
@@ -1706,7 +1704,7 @@ MonoBehaviour:
     I was just thinking of getting a latte. We just might have to stay there and talk
     for a while too!
   character: {fileID: 11400006}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: b8f3e26011a7f4f2385f7e5979f871cc, type: 3}
   showOnce: 0
 --- !u!114 &11400026
 MonoBehaviour:
@@ -1724,7 +1722,7 @@ MonoBehaviour:
   selected: 0
   storyText: I wouldn't have it any other way.
   character: {fileID: 11400366}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 5a8118ed2bbca47649703bdcb8a3ab82, type: 3}
   showOnce: 0
 --- !u!114 &11400028
 MonoBehaviour:
@@ -1757,7 +1755,7 @@ MonoBehaviour:
   selected: 0
   storyText: Hmm, I could go for a latte? You buying?
   character: {fileID: 11400378}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 29fb9570a9b2142d3ac8b269e911c3c6, type: 3}
   showOnce: 0
 --- !u!114 &11400032
 MonoBehaviour:
@@ -1790,7 +1788,7 @@ MonoBehaviour:
   selected: 0
   storyText: Um, I think I'll pass. I'm just here to walk.
   character: {fileID: 11400374}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 0f27b572fd0b541b09cf78eb148c8997, type: 3}
   showOnce: 0
 --- !u!114 &11400036
 MonoBehaviour:
@@ -1878,8 +1876,8 @@ MonoBehaviour:
     Want to grab one?
 
 '
-  character: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  character: {fileID: 11400366}
+  voiceOverClip: {fileID: 8300000, guid: d78f8fe0e7c0d4901a8188c3199fbe59, type: 3}
   timeoutDuration: 0
   fungus: {fileID: 0}
 --- !u!114 &11400044
@@ -1950,7 +1948,7 @@ MonoBehaviour:
   storyText: CUT! Ok, I don't think you are taking this audition seriously. You should
     leave. Now.
   character: {fileID: 11400372}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: b13c65461dbe545009c46b6034b76bb6, type: 3}
   showOnce: 0
 --- !u!114 &11400052
 MonoBehaviour:
@@ -2016,7 +2014,7 @@ MonoBehaviour:
     stringValue: 
 --- !u!114 &11400058
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100048}
@@ -2157,7 +2155,7 @@ MonoBehaviour:
   storyText: Alright, I'm going to stop you right there. Let's try it from the top,
     one more time.
   character: {fileID: 11400372}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: ebcc0d572ac6c4aa5bb0966522da7b0a, type: 3}
   showOnce: 0
 --- !u!114 &11400072
 MonoBehaviour:
@@ -2174,8 +2172,8 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   chooseText: Yeah! So, what brings you here? Looking for a partner
-  character: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  character: {fileID: 11400366}
+  voiceOverClip: {fileID: 8300000, guid: 384c9e1d23ec14dc2981d19bb3d6d04e, type: 3}
   timeoutDuration: 0
   fungus: {fileID: 0}
 --- !u!114 &11400074
@@ -2248,7 +2246,7 @@ MonoBehaviour:
   selected: 0
   storyText: Yes please! I get a bit lonely walking out here by myself all the time.
   character: {fileID: 11400006}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 69943dc6a51e541059a975e9d644c97b, type: 3}
   showOnce: 0
 --- !u!114 &11400082
 MonoBehaviour:
@@ -2267,7 +2265,7 @@ MonoBehaviour:
   storyText: Maaaaybe. I usually come out here just to enjoy the park by myself...
     but maybe I could make an exception.
   character: {fileID: 11400378}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 0ad0090a20a454cd6af84baf4c6ffe60, type: 3}
   showOnce: 0
 --- !u!114 &11400084
 MonoBehaviour:
@@ -2285,7 +2283,7 @@ MonoBehaviour:
   selected: 0
   storyText: "Ummm no. I came out here to clear my mind, that\u2019s it."
   character: {fileID: 11400374}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: ad90a47b57c4b44b3850768d340e815e, type: 3}
   showOnce: 0
 --- !u!114 &11400086
 MonoBehaviour:
@@ -2429,8 +2427,8 @@ MonoBehaviour:
   selected: 0
   chooseText: That's nice. These flowers sure look nice, too. I quite like the peonies
     there. What's your favorite?
-  character: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  character: {fileID: 11400366}
+  voiceOverClip: {fileID: 8300000, guid: 33d3817505764424085f459eb14fa572, type: 3}
   timeoutDuration: 0
   fungus: {fileID: 0}
 --- !u!114 &11400100
@@ -2449,7 +2447,7 @@ MonoBehaviour:
   selected: 0
   storyText: Good. Keep going.
   character: {fileID: 11400368}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 5c5bf389e85384548b33706500c8b183, type: 3}
   showOnce: 0
 --- !u!114 &11400102
 MonoBehaviour:
@@ -2467,8 +2465,8 @@ MonoBehaviour:
   selected: 0
   chooseText: "Hmm... well I'd love to chat with you for a while if you don\u2019t
     mind"
-  character: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  character: {fileID: 11400366}
+  voiceOverClip: {fileID: 8300000, guid: 3d0998e7c26ec4aa3b2e43b91b9ad0b5, type: 3}
   timeoutDuration: 0
   fungus: {fileID: 0}
 --- !u!114 &11400104
@@ -2542,7 +2540,7 @@ MonoBehaviour:
   storyText: Well I just love going for walks on days like today. I love the sounds,
     the smells... (towards Hank) the sights...
   character: {fileID: 11400006}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 88896f1f74dff4be9bbf77233a21c8d0, type: 3}
   showOnce: 0
 --- !u!114 &11400112
 MonoBehaviour:
@@ -2560,7 +2558,7 @@ MonoBehaviour:
   selected: 0
   storyText: Oh you know, just walking around myself, looking at flowers.
   character: {fileID: 11400378}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 7f5a01f696bd34e23aaec0eeb705d19a, type: 3}
   showOnce: 0
 --- !u!114 &11400114
 MonoBehaviour:
@@ -2579,7 +2577,7 @@ MonoBehaviour:
   storyText: Uhhhh just trying to go for a walk by myself. I don't really have anything
     to talk about.
   character: {fileID: 11400374}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 33097993b4fe14145977ddbb7b3ebaf4, type: 3}
   showOnce: 0
 --- !u!114 &11400116
 MonoBehaviour:
@@ -2650,8 +2648,8 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   chooseText: So, what brings you here all by yourself?
-  character: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  character: {fileID: 11400366}
+  voiceOverClip: {fileID: 8300000, guid: 9734e312d7f414e4299cd057ae71935f, type: 3}
   timeoutDuration: 0
   fungus: {fileID: 0}
 --- !u!114 &11400124
@@ -2670,7 +2668,7 @@ MonoBehaviour:
   selected: 0
   storyText: Good. Keep going.
   character: {fileID: 11400368}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 54c94a19b10154c0db1f8ba3e3e1a7ea, type: 3}
   showOnce: 0
 --- !u!114 &11400126
 MonoBehaviour:
@@ -2749,7 +2747,7 @@ MonoBehaviour:
   - {fileID: 11400102}
 --- !u!114 &11400132
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100048}
@@ -2771,18 +2769,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scriptScrollPos: {x: 1287.59839, y: 96.0046387}
+  scriptScrollPos: {x: 1099.02869, y: 171.5}
   commandScrollPos: {x: 0, y: 0}
   commandViewWidth: 350
-  selectedSequence: {fileID: 11400346}
-  selectedCommand: {fileID: 11400376}
+  selectedSequence: {fileID: 11400052}
+  selectedCommand: {fileID: 11400050}
   variables:
   - {fileID: 11400132}
   - {fileID: 11400058}
   - {fileID: 11400012}
   - {fileID: 11400010}
   - {fileID: 11400008}
-  startSequence: {fileID: 0}
+  startSequence: {fileID: 11400144}
   executeOnStart: 1
   settings:
     runSlowInEditor: 0
@@ -2830,7 +2828,7 @@ MonoBehaviour:
   selected: 0
   storyText: It sure is! I just love all these peonies! They smell wonderful!
   character: {fileID: 11400006}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 1a9b347726d314e0cb446577e15b37fb, type: 3}
   showOnce: 0
 --- !u!114 &11400140
 MonoBehaviour:
@@ -2897,7 +2895,7 @@ MonoBehaviour:
   selected: 0
   storyText: Sounds good to me!
   character: {fileID: 11400006}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: dc30efc2c3e604f40a6784e0801fcec9, type: 3}
   showOnce: 0
 --- !u!114 &11400148
 MonoBehaviour:
@@ -2913,15 +2911,16 @@ MonoBehaviour:
   errorMessage: 
   indentLevel: 0
   selected: 0
-  storyText: 'Alright, welcome to the audition for [name of film]. We''re gonna go
-    through a couple exercises before we get started with the scene.
+  storyText: 'Alright, welcome to the audition for "Close Encounters with the Suave
+    kind". We''re gonna go through a couple exercises before we get started with the
+    scene.
 
 
     Sound good?
 
 '
   character: {fileID: 11400368}
-  voiceOverClip: {fileID: 8300000, guid: 203b1becb4119421ab0ea00361ebce9d, type: 3}
+  voiceOverClip: {fileID: 8300000, guid: 2eb2c2993fa204911af4a3c8281576d6, type: 3}
   showOnce: 0
 --- !u!114 &11400150
 MonoBehaviour:
@@ -2964,7 +2963,7 @@ MonoBehaviour:
   selected: 0
   storyText: Good. Keep going.
   character: {fileID: 11400368}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 54c94a19b10154c0db1f8ba3e3e1a7ea, type: 3}
   showOnce: 0
 --- !u!114 &11400154
 MonoBehaviour:
@@ -2982,7 +2981,7 @@ MonoBehaviour:
   selected: 0
   storyText: Hah, yeah it is, isn't it.
   character: {fileID: 11400378}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 720120160d8904c8284a321fab9078d2, type: 3}
   showOnce: 0
 --- !u!114 &11400156
 MonoBehaviour:
@@ -3037,7 +3036,7 @@ MonoBehaviour:
   selected: 0
   storyText: Hmm, that's not quite what I'm looking for. Can you try it again?
   character: {fileID: 11400372}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 1aee285b20c5e4bf0b51f6707ba97e6f, type: 3}
   showOnce: 0
 --- !u!114 &11400162
 MonoBehaviour:
@@ -3057,7 +3056,7 @@ MonoBehaviour:
 
 '
   character: {fileID: 11400374}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: f2cb63d2caeed42e19dae5dbdbc985a6, type: 3}
   showOnce: 0
 --- !u!114 &11400164
 MonoBehaviour:
@@ -3100,7 +3099,7 @@ MonoBehaviour:
   chooseText: "Hmm... let's try that one again. I want to hear coy, like shy or reserved\u2026
     but still flirty"
   character: {fileID: 11400372}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: cb5685fc5797241ceb3c799cb25df47f, type: 3}
   timeoutDuration: 0
   fungus: {fileID: 0}
 --- !u!114 &11400168
@@ -3173,7 +3172,7 @@ MonoBehaviour:
   selected: 0
   storyText: Yeah, good to see you too... maybe call me?
   character: {fileID: 11400006}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 36b001d38ae414034a015d481671881d, type: 3}
   showOnce: 0
 --- !u!114 &11400176
 MonoBehaviour:
@@ -3214,7 +3213,7 @@ MonoBehaviour:
   selected: 0
   chooseText: Ok, this first line I want you to deliver excitedly.
   character: {fileID: 11400368}
-  voiceOverClip: {fileID: 8300000, guid: 0a7665cf7c9964cecbd5491cc86f16b7, type: 3}
+  voiceOverClip: {fileID: 8300000, guid: ec29209ace1d645268ffcb8d110edb65, type: 3}
   timeoutDuration: 0
   fungus: {fileID: 0}
 --- !u!114 &11400180
@@ -3311,7 +3310,7 @@ MonoBehaviour:
   selected: 0
   chooseText: Great, that's just great. Alright now try the same line, but Coy...
   character: {fileID: 11400368}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 9d322bd4e435c465491769cbbabebc3d, type: 3}
   timeoutDuration: 0
   fungus: {fileID: 0}
 --- !u!114 &11400190
@@ -3384,7 +3383,7 @@ MonoBehaviour:
   selected: 0
   storyText: Yes! It was great to see you too. I'd like to see you again soon!
   character: {fileID: 11400006}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: a7ac5ed08c4d2454ca5d65c2412d39e1, type: 3}
   showOnce: 0
 --- !u!114 &11400198
 MonoBehaviour:
@@ -3426,7 +3425,7 @@ MonoBehaviour:
 
 '
   character: {fileID: 11400378}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 184520482ab334e25ba94556c2920dcc, type: 3}
   showOnce: 0
 --- !u!114 &11400202
 MonoBehaviour:
@@ -3459,7 +3458,7 @@ MonoBehaviour:
   selected: 0
   storyText: Hmm, that's not quite what I'm looking for. Can you try it again?
   character: {fileID: 11400372}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 1aee285b20c5e4bf0b51f6707ba97e6f, type: 3}
   showOnce: 0
 --- !u!114 &11400206
 MonoBehaviour:
@@ -3502,7 +3501,7 @@ MonoBehaviour:
   selected: 0
   storyText: What? Yeah... I guess so.
   character: {fileID: 11400374}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: e86dffc257f514d378924d424fab1962, type: 3}
   showOnce: 0
 --- !u!114 &11400210
 MonoBehaviour:
@@ -3526,8 +3525,6 @@ MonoBehaviour:
   - {fileID: 11400064}
   - {fileID: 11400228}
   - {fileID: 11400226}
-  - {fileID: 11400224}
-  - {fileID: 11400222}
   - {fileID: 11400062}
   - {fileID: 11400066}
   - {fileID: 11400060}
@@ -3536,6 +3533,8 @@ MonoBehaviour:
   - {fileID: 11400216}
   - {fileID: 11400214}
   - {fileID: 11400212}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!114 &11400212
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3552,7 +3551,7 @@ MonoBehaviour:
   selected: 0
   chooseText: Well hello there. Beautiful day, isn't it?
   character: {fileID: 11400366}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: a01a4a09044bd45cf8704d9333017dd7, type: 3}
   timeoutDuration: 0
   fungus: {fileID: 0}
 --- !u!114 &11400214
@@ -3625,46 +3624,7 @@ MonoBehaviour:
   selected: 0
   storyText: Ok, hi. Ready to get started?
   character: {fileID: 11400366}
-  voiceOverClip: {fileID: 0}
-  showOnce: 0
---- !u!114 &11400222
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100068}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  errorMessage: 
-  indentLevel: 1
-  selected: 0
-  storyText: "Sorry, he keeps wandering off. He's the producer's son... mama mia \u2018e
-    un ragazzo incompetente."
-  character: {fileID: 11400372}
-  voiceOverClip: {fileID: 0}
-  showOnce: 0
---- !u!114 &11400224
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100068}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  errorMessage: 
-  indentLevel: 1
-  selected: 0
-  storyText: 'Wait, where did he go? HANK! GET IN
-
-    HERE! ANOTHER GIRL IS AUDITIONING! questo stronzo'
-  character: {fileID: 11400368}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: e26ad70e6121c4811bf5f45dda9f2d64, type: 3}
   showOnce: 0
 --- !u!114 &11400226
 MonoBehaviour:
@@ -3682,9 +3642,12 @@ MonoBehaviour:
   selected: 0
   storyText: "Yes, that sounds good. Let's move on to the scene. You are going for
     a walk through a park on a summer day, and a man approaches you.  Let me just
-    get Hank in here\u2026 he will be your dialog partner."
+    get Hank in here\u2026 he will be your dialog partner. \n\nWait, where did he
+    go? HANK! GET IN\nHERE! ANOTHER GIRL IS AUDITIONING! questo stronzo\n\nSorry,
+    he keeps wandering off. He's the producer's son... mama mia \u2018e un ragazzo
+    incompetente."
   character: {fileID: 11400368}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 127d862c3ca934209925dd170561bea6, type: 3}
   showOnce: 0
 --- !u!114 &11400228
 MonoBehaviour:
@@ -3702,7 +3665,7 @@ MonoBehaviour:
   selected: 0
   storyText: Yeah, good to see you too... maybe call me?
   character: {fileID: 11400378}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: c7af06dd53da74c20b838b2e1e12c531, type: 3}
   showOnce: 0
 --- !u!114 &11400230
 MonoBehaviour:
@@ -3745,7 +3708,7 @@ MonoBehaviour:
   chooseText: "Hmm... let's try that one again. I want to hear coy, like shy or reserved\u2026
     but still flirty"
   character: {fileID: 11400372}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: cb5685fc5797241ceb3c799cb25df47f, type: 3}
   timeoutDuration: 0
   fungus: {fileID: 0}
 --- !u!114 &11400234
@@ -3818,7 +3781,7 @@ MonoBehaviour:
   selected: 0
   storyText: Yeah, good to see you too... maybe call me?
   character: {fileID: 11400374}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: bbdf42e34efbb434f8d2ccf21592f3fc, type: 3}
   showOnce: 0
 --- !u!114 &11400242
 MonoBehaviour:
@@ -3870,7 +3833,7 @@ MonoBehaviour:
   storyText: That sounds just wonderful! Here, take my number and call me when you
     want that coffee...
   character: {fileID: 11400006}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 37916832fbda142a09fb9f454e2de814, type: 3}
   showOnce: 0
 --- !u!114 &11400248
 MonoBehaviour:
@@ -3903,7 +3866,7 @@ MonoBehaviour:
   selected: 0
   storyText: Hmm, I'm not sure when that will be. We'll see...
   character: {fileID: 11400378}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 328f33d0b784e479ab605e79fce9e07e, type: 3}
   showOnce: 0
 --- !u!114 &11400252
 MonoBehaviour:
@@ -3936,7 +3899,7 @@ MonoBehaviour:
   selected: 0
   storyText: Yeah, whatever. I could use the coffee.
   character: {fileID: 11400374}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 4d79634f308f540dd9cc0977c34ff9f1, type: 3}
   showOnce: 0
 --- !u!114 &11400256
 MonoBehaviour:
@@ -3955,8 +3918,8 @@ MonoBehaviour:
   chooseText: Well alright, that's fair. I would like to talk to you though, do you
     want to go for coffee later, after you've cleared your head? I'd love to get to
     know you.
-  character: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  character: {fileID: 11400366}
+  voiceOverClip: {fileID: 8300000, guid: de4892f0d94a145c58dad59e383e3b42, type: 3}
   timeoutDuration: 0
   fungus: {fileID: 0}
 --- !u!114 &11400258
@@ -4107,7 +4070,7 @@ MonoBehaviour:
   selected: 0
   storyText: Sounds intriguing. I hope you'll show me more...
   character: {fileID: 11400006}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 83af1783ab93d43a986856e2ae85833e, type: 3}
   showOnce: 0
 --- !u!114 &11400274
 MonoBehaviour:
@@ -4140,7 +4103,7 @@ MonoBehaviour:
   selected: 0
   storyText: Ehm no... I should probably stick to my route.
   character: {fileID: 11400374}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: d0e22e9ddf0924ffba5bc011fa47203c, type: 3}
   showOnce: 0
 --- !u!114 &11400278
 MonoBehaviour:
@@ -4158,7 +4121,7 @@ MonoBehaviour:
   selected: 0
   storyText: Hmm, I guess that could be fun... ok haha, who doesn't like cakes
   character: {fileID: 11400378}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 1f3e9ad5299b1444e8a8db3db27b3103, type: 3}
   showOnce: 0
 --- !u!114 &11400280
 MonoBehaviour:
@@ -4192,8 +4155,8 @@ MonoBehaviour:
   chooseText: Well then, I guess we should explore the.. uh... sights and sounds.
     I know a cool place over around that corner. Want to come? It's also a place for
     cakes
-  character: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  character: {fileID: 11400366}
+  voiceOverClip: {fileID: 8300000, guid: 782466924146941848336183bf4d1bf3, type: 3}
   timeoutDuration: 0
   fungus: {fileID: 0}
 --- !u!114 &11400284
@@ -4344,7 +4307,7 @@ MonoBehaviour:
   selected: 0
   storyText: That would be wonderful
   character: {fileID: 11400366}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 48656c3d6fb29434aae94e2f34861be8, type: 3}
   showOnce: 0
 --- !u!114 &11400300
 MonoBehaviour:
@@ -4364,7 +4327,7 @@ MonoBehaviour:
     know, I don't ever do this, but against my better judgement, would you want to
     grab a coffee?
   character: {fileID: 11400006}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 25dc33a57de15499da5ed7b295c22605, type: 3}
   showOnce: 0
 --- !u!114 &11400302
 MonoBehaviour:
@@ -4397,8 +4360,8 @@ MonoBehaviour:
   selected: 0
   storyText: Really! I like those too. Though it's pretty rare to meet a man who likes
     peonies hehee
-  character: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  character: {fileID: 11400378}
+  voiceOverClip: {fileID: 8300000, guid: f403349f9b4bb40478ab5afe45a05714, type: 3}
   showOnce: 0
 --- !u!114 &11400306
 MonoBehaviour:
@@ -4432,7 +4395,7 @@ MonoBehaviour:
   storyText: Flowers aren't really my thing. I usually come to the park just to clear
     my head.
   character: {fileID: 11400374}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: d786c6e1867044f2686c59758fb1c0ca, type: 3}
   showOnce: 0
 --- !u!114 &11400310
 MonoBehaviour:
@@ -4528,8 +4491,8 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   storyText: Well, this is a bit awkward so I'm going to leave now...
-  character: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  character: {fileID: 11400366}
+  voiceOverClip: {fileID: 8300000, guid: 189b0f7f320864f8881aee217266af0a, type: 3}
   showOnce: 0
 --- !u!114 &11400320
 MonoBehaviour:
@@ -4547,7 +4510,7 @@ MonoBehaviour:
   selected: 0
   storyText: Sure, you can join...
   character: {fileID: 11400006}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: a72916dc5bee54fb0a63991de75722a4, type: 3}
   showOnce: 0
 --- !u!114 &11400322
 MonoBehaviour:
@@ -4580,7 +4543,7 @@ MonoBehaviour:
   selected: 0
   storyText: Well, this is a bit awkard so I'm leaving now.
   character: {fileID: 11400366}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 189b0f7f320864f8881aee217266af0a, type: 3}
   showOnce: 0
 --- !u!114 &11400326
 MonoBehaviour:
@@ -4598,7 +4561,7 @@ MonoBehaviour:
   selected: 0
   storyText: Sure, you can join...
   character: {fileID: 11400378}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 38025f72d70f743e4b63a39dafd5f6bf, type: 3}
   showOnce: 0
 --- !u!114 &11400328
 MonoBehaviour:
@@ -4631,7 +4594,7 @@ MonoBehaviour:
   selected: 0
   storyText: Ugh, I guess so. But I don't have anything to talk about.
   character: {fileID: 11400374}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 4ef644d284cd04462b2894f1c6c364b5, type: 3}
   showOnce: 0
 --- !u!114 &11400332
 MonoBehaviour:
@@ -4714,7 +4677,7 @@ MonoBehaviour:
   selected: 0
   storyText: Hmm. Continue.
   character: {fileID: 11400368}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 5c5bf389e85384548b33706500c8b183, type: 3}
   showOnce: 0
 --- !u!114 &11400340
 MonoBehaviour:
@@ -4730,9 +4693,9 @@ MonoBehaviour:
   errorMessage: 
   indentLevel: 0
   selected: 0
-  storyText: Hmm. Continue/
+  storyText: Hmm. Continue.
   character: {fileID: 11400368}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: b8bd620da0d9b4f25abfb85e93ba35c8, type: 3}
   showOnce: 0
 --- !u!114 &11400342
 MonoBehaviour:
@@ -4812,7 +4775,7 @@ MonoBehaviour:
     and you know what, I think you've just earned yourself the role of the leading
     lady! Thanks so much for coming in.
   character: {fileID: 11400368}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: fcc26f3e4178b46a294cbfd62f953837, type: 3}
   showOnce: 0
 --- !u!114 &11400350
 MonoBehaviour:
@@ -4845,7 +4808,7 @@ MonoBehaviour:
   selected: 0
   storyText: Ookay
   character: {fileID: 11400378}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: bd764c9c698854eae8894d6519962a18, type: 3}
   showOnce: 0
 --- !u!114 &11400354
 MonoBehaviour:
@@ -4863,7 +4826,7 @@ MonoBehaviour:
   selected: 0
   storyText: Oh come on, it's not like that. It's a compliment.
   character: {fileID: 11400366}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 3e0c4216e523943d0b9faadc1d16f8e0, type: 3}
   showOnce: 0
 --- !u!114 &11400356
 MonoBehaviour:
@@ -4881,7 +4844,7 @@ MonoBehaviour:
   selected: 0
   storyText: Most women? I guess I'm just one more then, huh?
   character: {fileID: 11400374}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 85f47aa77e8304b678dc9e134b157f75, type: 3}
   showOnce: 0
 --- !u!114 &11400358
 MonoBehaviour:
@@ -4914,7 +4877,7 @@ MonoBehaviour:
   selected: 0
   storyText: Haha, I guess I've got a lot to learn about you
   character: {fileID: 11400366}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: b363724df387d4566842837b853eacaa, type: 3}
   showOnce: 0
 --- !u!114 &11400362
 MonoBehaviour:
@@ -4932,7 +4895,7 @@ MonoBehaviour:
   selected: 0
   storyText: Well, you don't really know what I'm thinking... do you?
   character: {fileID: 11400378}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 4861131520883463d94ea91c117d7582, type: 3}
   showOnce: 0
 --- !u!114 &11400364
 MonoBehaviour:
@@ -4951,7 +4914,7 @@ MonoBehaviour:
   storyText: CUT! You know, you did some interesting things, but I just don't think
     you're the right person for our production. Good luck in the future.
   character: {fileID: 11400372}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 9903833cde61e4441b9e1231d84402bf, type: 3}
   showOnce: 0
 --- !u!114 &11400366
 MonoBehaviour:
@@ -4966,7 +4929,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: Hank
   nameColor: {r: 1, g: 1, b: 1, a: 1}
-  profileSprite: {fileID: 21300000, guid: f7484a661774243b193bebc6e3ae5120, type: 3}
+  profileSprite: {fileID: 21300000, guid: 0e04e20a3060949d28dac50df45a8957, type: 3}
   notes: 
 --- !u!114 &11400368
 MonoBehaviour:
@@ -4981,7 +4944,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: Director_Satisfied
   nameColor: {r: 1, g: 1, b: 1, a: 1}
-  profileSprite: {fileID: 21300000, guid: e229de2b8fa934821910b2816f32c201, type: 3}
+  profileSprite: {fileID: 21300000, guid: 593715f829bcf4b0c81617c8dc7e7344, type: 3}
   notes: 
 --- !u!114 &11400370
 MonoBehaviour:
@@ -4998,8 +4961,8 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   chooseText: You know, I have to say most women I meet aren't so forward...
-  character: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  character: {fileID: 11400366}
+  voiceOverClip: {fileID: 8300000, guid: 1261c7ca98dad40f6844def850474846, type: 3}
   timeoutDuration: 0
   fungus: {fileID: 0}
 --- !u!114 &11400372
@@ -5015,7 +4978,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: Director_Dissapointed
   nameColor: {r: 1, g: 1, b: 1, a: 1}
-  profileSprite: {fileID: 21300000, guid: b2cf28596a376429da34c53dfcf6d295, type: 3}
+  profileSprite: {fileID: 21300000, guid: a8ec8f349cf0a4b089f71a0db75095be, type: 3}
   notes: 
 --- !u!114 &11400374
 MonoBehaviour:
@@ -5030,7 +4993,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: Player_Annoyed
   nameColor: {r: 1, g: 1, b: 1, a: 1}
-  profileSprite: {fileID: 21300000, guid: d18d934d212d442ee90406fd28e6eef6, type: 3}
+  profileSprite: {fileID: 21300000, guid: 7c48779b67a0e47e3b3236241e430bf6, type: 3}
   notes: 
 --- !u!114 &11400376
 MonoBehaviour:
@@ -5049,7 +5012,7 @@ MonoBehaviour:
   storyText: Aaaan cut! You know, that wasn't half bad! You're not a leading lady,
     but we just might have a part for you in our production. Thanks for coming in!
   character: {fileID: 11400368}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: aed22a2958ac9421187b4b8e42e2ff56, type: 3}
   showOnce: 0
 --- !u!114 &11400378
 MonoBehaviour:
@@ -5064,7 +5027,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: Player_Coy
   nameColor: {r: 1, g: 1, b: 1, a: 1}
-  profileSprite: {fileID: 21300000, guid: 088536216c5364d2ba277595d378c215, type: 3}
+  profileSprite: {fileID: 21300000, guid: 8003128fcd7eb475589e28815c789716, type: 3}
   notes: 
 --- !u!114 &11400380
 MonoBehaviour:
@@ -5096,8 +5059,8 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   storyText: Hah! I'm not sure how I feel about that!
-  character: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  character: {fileID: 11400366}
+  voiceOverClip: {fileID: 8300000, guid: 418c45d6844c54a999a3bd75ee85c34c, type: 3}
   showOnce: 0
 --- !u!114 &11400384
 MonoBehaviour:
@@ -5115,7 +5078,7 @@ MonoBehaviour:
   selected: 0
   storyText: Well, you'll learn fast that I'm not most woman.
   character: {fileID: 11400006}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 952173ee5bab247b8aba644fbdc021be, type: 3}
   showOnce: 0
 --- !u!1001 &100100000
 Prefab:

@@ -333,6 +333,12 @@ namespace Fungus
 			{
 				bool commandIsSelected = (fungusScript.selectedCommand == command);
 
+				//TODO Figure out why we need this added error checking. 
+				if(command == null)
+				{
+					continue;
+				}
+
 				bool highlight = command.IsExecuting() || (sequenceIsSelected && commandIsSelected);
 
 				if (highlightedOnly && !highlight ||

@@ -46,6 +46,8 @@ namespace Fungus
 
 			dialog.ShowDialog(true);
 
+			float voiceOverDuration = voiceOverClip != null ? voiceOverClip.length : 0;
+
 			if (voiceOverClip != null)
 			{
 				MusicController.GetInstance().PlaySound(voiceOverClip, 1f);
@@ -54,7 +56,7 @@ namespace Fungus
 			dialog.Say(storyText, delegate {
 				dialog.ShowDialog(false);
 				Continue();
-			});
+			}, voiceOverDuration);
 		}
 
 		public override string GetSummary()

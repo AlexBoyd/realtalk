@@ -27,7 +27,7 @@ namespace Fungus
 			activeDialogs.Remove(this);
 		}
 
-		public virtual void Say(string text, Action onComplete)
+		public virtual void Say(string text, Action onComplete, float timeoutDuration = 0)
 		{
 			Clear();
 			
@@ -35,17 +35,6 @@ namespace Fungus
 			{
 				storyText.text = text;
 			}
-
-			Action onWritingComplete = delegate {
-				ShowContinueImage(true);
-				StartCoroutine(WaitForInput(delegate {
-					Clear();					
-					if (onComplete != null)
-					{
-						onComplete();
-					}
-				}));
-			};
 
 			Action onExitTag = delegate {
 				Clear();					
@@ -55,7 +44,9 @@ namespace Fungus
 				}
 			};
 
-			StartCoroutine(WriteText(text, onWritingComplete, onExitTag));
+			StartCoroutine(WriteText(text, null, onExitTag));
+			StartCoroutine (WaitForTimeout (timeoutDuration, onComplete));
+
 		}
 
 		protected override void Clear()
@@ -74,6 +65,25 @@ namespace Fungus
 			if (continueImage != null)
 			{
 				continueImage.enabled = visible;
+			}
+		}
+
+		protected virtual IEnumerator WaitForTimeout(float timeoutDuration, Action onTimeout)
+		{
+			float elapsedTime = 0;
+			
+			while (elapsedTime < timeoutDuration)
+			{
+				elapsedTime += Time.deltaTime;
+				
+				yield return null;
+			}
+			
+			Clear();
+			
+			if (onTimeout != null)
+			{
+				onTimeout();
 			}
 		}
 	}

@@ -87,6 +87,11 @@ namespace Fungus
 			int indentLevel = 0;
 			foreach(Command command in sequence.commandList)
 			{
+				//TODO fix realtalk hack for error checking.
+				if(command == null)
+				{
+					continue;
+				}
 				indentLevel += command.GetPreIndent();
 				command.indentLevel = Math.Max(indentLevel, 0);
 				indentLevel += command.GetPostIndent();
