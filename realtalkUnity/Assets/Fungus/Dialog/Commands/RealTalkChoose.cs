@@ -105,6 +105,8 @@ namespace Fungus
                         options.Sort ((a, b) => Math.Abs (val - a.valence).CompareTo (Math.Abs (val - b.valence)));
                         ExecuteSequence (options.First ().targetSequence);
                         options.Clear();
+                        dialog.ShowDialog (false);
+
                     });
 
                     break;
@@ -125,9 +127,12 @@ namespace Fungus
                         {
                             ExecuteSequence (options [2].targetSequence);
                         }
+                        options.Clear();
+                        dialog.ShowDialog (false);
+
+
                     });
 
-                    options.Clear();
 
                     break;
                 }

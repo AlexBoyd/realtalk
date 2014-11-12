@@ -71,11 +71,11 @@ namespace Fungus
             {
                 em1.isOn = true;
             }
-            if(Input.GetKeyDown (KeyCode.JoystickButton17))
+            if(Input.GetKeyDown (KeyCode.JoystickButton16))
             {
                 em2.isOn = true;
             }
-            if(Input.GetKeyDown (KeyCode.JoystickButton16))
+            if(Input.GetKeyDown (KeyCode.JoystickButton17))
             {
                 em3.isOn = true;
             }
