@@ -58,7 +58,6 @@ namespace Fungus
             em2.gameObject.SetActive(RTMode == RealTalkMode.MoodMode);
             em3.gameObject.SetActive(RTMode == RealTalkMode.MoodMode);
             timeoutSlider.gameObject.SetActive(false);
-            em2.isOn = true;
 
             Clear();
 
