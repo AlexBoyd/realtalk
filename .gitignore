@@ -8,11 +8,11 @@
 *.unityproj
 *.sln
 *.DS_store
+*.userprefs
 
 
 /*.suo
 /*.user
-/*.userprefs
 /*.pidb
 /*.booproj
 
