@@ -92,7 +92,7 @@ namespace Fungus
                         MusicController.GetInstance ().PlaySound (voiceOverClip, 1f);
                     }
                     
-                    dialog.Choose (chooseText, dialogOptions, timeoutDuration, delegate {
+                    dialog.Choose (chooseText, dialogOptions, 0, delegate {
                         dialog.ShowDialog (false);
                         Continue ();
                     });
