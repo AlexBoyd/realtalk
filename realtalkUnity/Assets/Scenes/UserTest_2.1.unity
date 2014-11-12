@@ -318,7 +318,7 @@ MonoBehaviour:
   selected: 0
   storyText: Uhhhh just trying to go for a walk by myself. I don't really have anything
     to talk about.
-  character: {fileID: 1136708922}
+  character: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!1 &103932901
@@ -415,18 +415,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scriptScrollPos: {x: 1233.29199, y: 0}
+  scriptScrollPos: {x: 777.26416, y: 59}
   commandScrollPos: {x: 0, y: 0}
   commandViewWidth: 350
-  selectedSequence: {fileID: 1042371438}
-  selectedCommand: {fileID: 1042371440}
+  selectedSequence: {fileID: 2066149131}
+  selectedCommand: {fileID: 2066149133}
   variables:
   - {fileID: 103932903}
   - {fileID: 103932905}
   - {fileID: 103932908}
   - {fileID: 103932907}
   - {fileID: 103932906}
-  startSequence: {fileID: 688858186}
+  startSequence: {fileID: 0}
   executeOnStart: 1
   settings:
     runSlowInEditor: 1
@@ -893,7 +893,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &233863236
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -973,10 +973,10 @@ RectTransform:
   - {fileID: 1882855570}
   m_Father: {fileID: 422216581}
   m_RootOrder: 1
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 100, y: -86.4315796}
-  m_SizeDelta: {x: 150, y: 30}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 100, y: 86.4315796}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &233863239
 MonoBehaviour:
@@ -1596,7 +1596,7 @@ MonoBehaviour:
   selected: 0
   storyText: Alright, I'm going to stop you right there. Let's try it from the top,
     one more time.
-  character: {fileID: 1035916595}
+  character: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!114 &321906207
@@ -1615,7 +1615,7 @@ MonoBehaviour:
   indentLevel: 1
   selected: 0
   storyText: It sure is! I just love all these peonies! They smell wonderful!
-  character: {fileID: 140587248}
+  character: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!114 &321906208
@@ -1823,7 +1823,7 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   storyText: "Ummm no. I came out here to clear my mind, that\u2019s it."
-  character: {fileID: 1136708922}
+  character: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!1 &429721501
@@ -2686,7 +2686,7 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   storyText: Sounds good to me!
-  character: {fileID: 140587248}
+  character: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!114 &688858189
@@ -2711,8 +2711,8 @@ MonoBehaviour:
     Sound good?
 
 '
-  character: {fileID: 810860541}
-  voiceOverClip: {fileID: 0}
+  character: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 203b1becb4119421ab0ea00361ebce9d, type: 3}
   showOnce: 0
 --- !u!1 &693441723
 GameObject:
@@ -2845,7 +2845,7 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   storyText: Sure, you can join...
-  character: {fileID: 1136708922}
+  character: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!1 &755338610
@@ -3059,7 +3059,7 @@ MonoBehaviour:
   selected: 0
   storyText: CUT! Ok, I don't think you are taking this audition seriously. You should
     leave. Now.
-  character: {fileID: 1035916595}
+  character: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!4 &804607274
@@ -3249,7 +3249,7 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   storyText: Ugh, I guess so. But I don't have anything to talk about.
-  character: {fileID: 1136708922}
+  character: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!1 &888856124
@@ -3328,7 +3328,7 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   storyText: Good. Keep going.
-  character: {fileID: 810860541}
+  character: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!114 &888856128
@@ -3347,7 +3347,7 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   storyText: Hah, yeah it is, isn't it.
-  character: {fileID: 1456539255}
+  character: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!114 &888856129
@@ -3598,7 +3598,7 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   storyText: Yes please! I get a bit lonely walking out here by myself all the time.
-  character: {fileID: 140587248}
+  character: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!1 &949311331
@@ -3687,7 +3687,7 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   storyText: Hmm, that's not quite what I'm looking for. Can you try it again?
-  character: {fileID: 1035916595}
+  character: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!114 &949311336
@@ -3708,7 +3708,7 @@ MonoBehaviour:
   storyText: 'Yes! It was great to see you too. I''d like to see you again soon!
 
 '
-  character: {fileID: 1136708922}
+  character: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!1 &950769642
@@ -3801,7 +3801,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &958555699
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3881,10 +3881,10 @@ RectTransform:
   - {fileID: 826324456}
   m_Father: {fileID: 422216581}
   m_RootOrder: 0
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 100, y: -56.4315796}
-  m_SizeDelta: {x: 150, y: 30}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 100, y: 86.4315796}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &958555702
 MonoBehaviour:
@@ -3975,7 +3975,7 @@ Prefab:
       objectReference: {fileID: 1054745908}
     - target: {fileID: 11400042, guid: 44454b0ce06414c738a28fe6c6373fe6, type: 2}
       propertyPath: RTMode
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100064, guid: 44454b0ce06414c738a28fe6c6373fe6, type: 2}
       propertyPath: m_IsActive
@@ -3995,11 +3995,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100058, guid: 44454b0ce06414c738a28fe6c6373fe6, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 44454b0ce06414c738a28fe6c6373fe6, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100042, guid: 44454b0ce06414c738a28fe6c6373fe6, type: 2}
       propertyPath: m_IsActive
@@ -4007,7 +4007,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100008, guid: 44454b0ce06414c738a28fe6c6373fe6, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100036, guid: 44454b0ce06414c738a28fe6c6373fe6, type: 2}
       propertyPath: m_IsActive
@@ -4244,7 +4244,7 @@ MonoBehaviour:
   selected: 0
   chooseText: "Hmm... let's try that one again. I want to hear coy, like shy or reserved\u2026
     but still flirty"
-  character: {fileID: 1035916595}
+  character: {fileID: 0}
   voiceOverClip: {fileID: 0}
   timeoutDuration: 0
   fungus: {fileID: 0}
@@ -4321,7 +4321,7 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   storyText: Yeah, good to see you too... maybe call me?
-  character: {fileID: 140587248}
+  character: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!1 &1027709470
@@ -4535,9 +4535,9 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   chooseText: Ok, this first line I want you to deliver excitedly.
-  character: {fileID: 810860541}
+  character: {fileID: 0}
   voiceOverClip: {fileID: 8300000, guid: 0a7665cf7c9964cecbd5491cc86f16b7, type: 3}
-  timeoutDuration: 2
+  timeoutDuration: 0
   fungus: {fileID: 0}
 --- !u!114 &1042371441
 MonoBehaviour:
@@ -4556,7 +4556,7 @@ MonoBehaviour:
   selected: 0
   optionText: Excited
   targetSequence: {fileID: 1450690464}
-  valence: 3
+  valence: 0
   hideOnSelected: 0
 --- !u!114 &1042371442
 MonoBehaviour:
@@ -4594,7 +4594,7 @@ MonoBehaviour:
   selected: 0
   optionText: Annoyed
   targetSequence: {fileID: 949311333}
-  valence: -1
+  valence: 0
   hideOnSelected: 0
 --- !u!1 &1054745907
 GameObject:
@@ -5116,7 +5116,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1426594213
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5196,10 +5196,10 @@ RectTransform:
   - {fileID: 1325790794}
   m_Father: {fileID: 422216581}
   m_RootOrder: 2
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 100, y: -116.43158}
-  m_SizeDelta: {x: 150, y: 30}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 100, y: 86.4315796}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &1426594216
 MonoBehaviour:
@@ -5315,7 +5315,7 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   chooseText: Great, that's just great. Alright now try the same line, but Coy...
-  character: {fileID: 810860541}
+  character: {fileID: 0}
   voiceOverClip: {fileID: 0}
   timeoutDuration: 0
   fungus: {fileID: 0}
@@ -5392,7 +5392,7 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   storyText: Yes! It was great to see you too. I'd like to see you again soon!
-  character: {fileID: 140587248}
+  character: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!1 &1456246622
@@ -5455,7 +5455,7 @@ MonoBehaviour:
   storyText: 'Yes! It was great to see you too. I''d like to see you again soon!
 
 '
-  character: {fileID: 1456539255}
+  character: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!4 &1456246625
@@ -5502,7 +5502,7 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   storyText: Hmm, that's not quite what I'm looking for. Can you try it again?
-  character: {fileID: 1035916595}
+  character: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!1 &1456539254
@@ -5893,7 +5893,7 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   storyText: Sure, you can join...
-  character: {fileID: 140587248}
+  character: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!1 &1540371315
@@ -5992,7 +5992,7 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   storyText: What? Yeah... I guess so.
-  character: {fileID: 1136708922}
+  character: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!114 &1540371320
@@ -6068,7 +6068,7 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   storyText: Good. Keep going.
-  character: {fileID: 810860541}
+  character: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!1001 &1551117589
@@ -6195,7 +6195,7 @@ MonoBehaviour:
   selected: 0
   storyText: Well I just love going for walks on days like today. I love the sounds,
     the smells... (towards Hank) the sights...
-  character: {fileID: 140587248}
+  character: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!1 &1563228084
@@ -6575,7 +6575,7 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   chooseText: Well hello there. Beautiful day, isn't it?
-  character: {fileID: 629119618}
+  character: {fileID: 0}
   voiceOverClip: {fileID: 0}
   timeoutDuration: 0
   fungus: {fileID: 0}
@@ -6652,7 +6652,7 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   storyText: Ok, hi. Ready to get started?
-  character: {fileID: 629119618}
+  character: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!114 &1720347511
@@ -6672,7 +6672,7 @@ MonoBehaviour:
   selected: 0
   storyText: "Sorry, he keeps wandering off. He's the producer's son... mama mia \u2018e
     un ragazzo incompetente."
-  character: {fileID: 1035916595}
+  character: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!114 &1720347512
@@ -6693,7 +6693,7 @@ MonoBehaviour:
   storyText: 'Wait, where did he go? HANK! GET IN
 
     HERE! ANOTHER GIRL IS AUDITIONING! questo stronzo'
-  character: {fileID: 810860541}
+  character: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!114 &1720347513
@@ -6714,7 +6714,7 @@ MonoBehaviour:
   storyText: "Yes, that sounds good. Let's move on to the scene. You are going for
     a walk through a park on a summer day, and a man approaches you.  Let me just
     get Hank in here\u2026 he will be your dialog partner."
-  character: {fileID: 810860541}
+  character: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!114 &1720347514
@@ -6733,7 +6733,7 @@ MonoBehaviour:
   indentLevel: 1
   selected: 0
   storyText: Yeah, good to see you too... maybe call me?
-  character: {fileID: 1456539255}
+  character: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!114 &1720347515
@@ -7172,7 +7172,7 @@ MonoBehaviour:
   - {fileID: 233863236}
   - {fileID: 1426594213}
   - {fileID: 1060048544}
-  RTMode: 0
+  RTMode: 1
 --- !u!4 &1803179370
 Transform:
   m_ObjectHideFlags: 0
@@ -7254,7 +7254,7 @@ MonoBehaviour:
   selected: 0
   storyText: Maaaaybe. I usually come out here just to enjoy the park by myself...
     but maybe I could make an exception.
-  character: {fileID: 1456539255}
+  character: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!1 &1826343952
@@ -7768,7 +7768,7 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   storyText: Sure, you can join...
-  character: {fileID: 1456539255}
+  character: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!1 &2015488683
@@ -7834,7 +7834,7 @@ MonoBehaviour:
   selected: 0
   chooseText: "Hmm... let's try that one again. I want to hear coy, like shy or reserved\u2026
     but still flirty"
-  character: {fileID: 1035916595}
+  character: {fileID: 0}
   voiceOverClip: {fileID: 0}
   timeoutDuration: 0
   fungus: {fileID: 0}
@@ -7911,7 +7911,7 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   storyText: Yeah, good to see you too... maybe call me?
-  character: {fileID: 1136708922}
+  character: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!4 &2015488690
@@ -8133,7 +8133,7 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   storyText: Oh you know, just walking around myself, looking at flowers.
-  character: {fileID: 1456539255}
+  character: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!114 &2066149133
@@ -8153,7 +8153,7 @@ MonoBehaviour:
   selected: 0
   chooseText: That's nice. These flowers sure look nice, too. I quite like the peonies
     there. What's your favorite?
-  character: {fileID: 140587248}
+  character: {fileID: 0}
   voiceOverClip: {fileID: 0}
   timeoutDuration: 0
   fungus: {fileID: 0}
@@ -8173,7 +8173,7 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   storyText: Good. Keep going.
-  character: {fileID: 810860541}
+  character: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showOnce: 0
 --- !u!114 &2066149135
