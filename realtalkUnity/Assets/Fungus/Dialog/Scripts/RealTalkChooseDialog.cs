@@ -101,19 +101,20 @@ namespace Fungus
             emotionalSlider.gameObject.SetActive(RTMode == RealTalkMode.Slider);
 
 			Action onWritingComplete = delegate {
-				foreach (Option option in options)
-				{
-					AddOption(option.text, option.onSelect);
-				}
 				
-				if (timeoutDuration > 0)
-				{
-					timeoutSlider.gameObject.SetActive(true);
-					StartCoroutine(WaitForTimeout(timeoutDuration, onTimeout));
-				}
 			};
 
 			StartCoroutine(WriteText(text, onWritingComplete, onTimeout));
+            foreach (Option option in options)
+            {
+                AddOption(option.text, option.onSelect);
+            }
+            
+            if (timeoutDuration > 0)
+            {
+                timeoutSlider.gameObject.SetActive(true);
+                StartCoroutine(WaitForTimeout(timeoutDuration, onTimeout));
+            }
 		}
 
 		protected virtual IEnumerator WaitForTimeout(float timeoutDuration, Action onTimeout)

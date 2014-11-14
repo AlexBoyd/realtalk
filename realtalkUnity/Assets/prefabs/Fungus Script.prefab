@@ -2117,7 +2117,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   errorMessage: 
-  indentLevel: 0
+  indentLevel: 1
   selected: 0
   variable: {fileID: 11400132}
   setOperator: 0
@@ -2779,11 +2779,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scriptScrollPos: {x: 1327.0426, y: 22.0013428}
+  scriptScrollPos: {x: 24.0014648, y: 0}
   commandScrollPos: {x: 0, y: 0}
   commandViewWidth: 350
-  selectedSequence: {fileID: 11400150}
-  selectedCommand: {fileID: 11400074}
+  selectedSequence: {fileID: 11400040}
+  selectedCommand: {fileID: 0}
   variables:
   - {fileID: 11400132}
   - {fileID: 11400058}
@@ -2921,7 +2921,7 @@ MonoBehaviour:
   errorMessage: 
   indentLevel: 0
   selected: 0
-  storyText: 'Alright, welcome to the audition for "Close Encounters with the Suave
+  storyText: 'Alright, welcome to the audition for "Close Encounters of the Suave
     kind". We''re gonna go through a couple exercises before we get started with the
     scene.
 
@@ -3536,12 +3536,12 @@ MonoBehaviour:
   - {fileID: 11400064}
   - {fileID: 11400228}
   - {fileID: 11400226}
+  - {fileID: 11400066}
   - {fileID: 11400218}
   - {fileID: 11400216}
   - {fileID: 11400214}
   - {fileID: 11400212}
   - {fileID: 11400062}
-  - {fileID: 11400066}
   - {fileID: 11400060}
   - {fileID: 11400220}
   - {fileID: 11400404}
@@ -3627,7 +3627,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100068}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
@@ -4927,7 +4927,8 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   storyText: CUT! You know, you did some interesting things, but I just don't think
-    you're the right person for our production. Good luck in the future.
+    you're the right person for "Close Encounters of the Suave kind". Good luck in
+    the future.
   character: {fileID: 11400372}
   voiceOverClip: {fileID: 8300000, guid: 9903833cde61e4441b9e1231d84402bf, type: 3}
   showOnce: 0
@@ -5025,7 +5026,8 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   storyText: Aaaan cut! You know, that wasn't half bad! You're not a leading lady,
-    but we just might have a part for you in our production. Thanks for coming in!
+    but we just might have a part for you in "Close Encounters of the Suave kind"
+    Thanks for coming in!
   character: {fileID: 11400368}
   voiceOverClip: {fileID: 8300000, guid: aed22a2958ac9421187b4b8e42e2ff56, type: 3}
   showOnce: 0
@@ -5219,7 +5221,7 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   chooseText: Well hello there. Beautiful day, isn't it?
-  character: {fileID: 0}
+  character: {fileID: 11400366}
   voiceOverClip: {fileID: 8300000, guid: a01a4a09044bd45cf8704d9333017dd7, type: 3}
   timeoutDuration: 0
   fungus: {fileID: 0}
