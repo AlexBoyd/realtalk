@@ -2200,7 +2200,7 @@ MonoBehaviour:
   errorMessage: 
   indentLevel: 0
   selected: 0
-  optionText: Dissapointed
+  optionText: Excited
   targetSequence: {fileID: 11400086}
   valence: .670000017
   hideOnSelected: 0
@@ -2779,11 +2779,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scriptScrollPos: {x: 1089.02808, y: 319}
+  scriptScrollPos: {x: 1327.0426, y: 22.0013428}
   commandScrollPos: {x: 0, y: 0}
   commandViewWidth: 350
-  selectedSequence: {fileID: 11400344}
-  selectedCommand: {fileID: 11400348}
+  selectedSequence: {fileID: 11400150}
+  selectedCommand: {fileID: 11400074}
   variables:
   - {fileID: 11400132}
   - {fileID: 11400058}
@@ -3221,7 +3221,8 @@ MonoBehaviour:
   errorMessage: 
   indentLevel: 0
   selected: 0
-  chooseText: Ok, this first line I want you to deliver excitedly.
+  chooseText: Ok, let's make a little test. Just deliver this line but I want you
+    to be excited.
   character: {fileID: 11400368}
   voiceOverClip: {fileID: 8300000, guid: ec29209ace1d645268ffcb8d110edb65, type: 3}
   timeoutDuration: 0

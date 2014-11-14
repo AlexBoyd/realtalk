@@ -568,7 +568,6 @@ MonoBehaviour:
   description: 
   commandList:
   - {fileID: 77875564}
-  - {fileID: 0}
 --- !u!114 &77875564
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7710,11 +7709,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scriptScrollPos: {x: 1367.04504, y: 45.9851074}
+  scriptScrollPos: {x: 1089.02808, y: 319}
   commandScrollPos: {x: 0, y: 0}
   commandViewWidth: 350
-  selectedSequence: {fileID: 2010560210}
-  selectedCommand: {fileID: 2010560211}
+  selectedSequence: {fileID: 77875563}
+  selectedCommand: {fileID: 77875564}
   variables:
   - {fileID: 1931903000}
   - {fileID: 1931902999}
@@ -7842,10 +7841,6 @@ MonoBehaviour:
   - {fileID: 1965797198}
   - {fileID: 1965797197}
   - {fileID: 1965797196}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!114 &1965797184
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8554,7 +8549,6 @@ MonoBehaviour:
   - {fileID: 2010560212}
   - {fileID: 2010560211}
   - {fileID: 2010560214}
-  - {fileID: 0}
 --- !u!114 &2010560211
 MonoBehaviour:
   m_ObjectHideFlags: 0
