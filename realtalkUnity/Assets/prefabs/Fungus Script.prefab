@@ -688,6 +688,14 @@ GameObject:
   - 114: {fileID: 11400064}
   - 114: {fileID: 11400062}
   - 114: {fileID: 11400060}
+  - 114: {fileID: 11400396}
+  - 114: {fileID: 11400394}
+  - 114: {fileID: 11400392}
+  - 114: {fileID: 11400390}
+  - 114: {fileID: 11400404}
+  - 114: {fileID: 11400402}
+  - 114: {fileID: 11400400}
+  - 114: {fileID: 11400398}
   m_Layer: 0
   m_Name: 32
   m_TagString: Untagged
@@ -744,6 +752,7 @@ GameObject:
   - 4: {fileID: 400074}
   - 114: {fileID: 11400342}
   - 114: {fileID: 11400364}
+  - 114: {fileID: 11400388}
   m_Layer: 0
   m_Name: Not right for this
   m_TagString: Untagged
@@ -778,6 +787,7 @@ GameObject:
   - 4: {fileID: 400078}
   - 114: {fileID: 11400346}
   - 114: {fileID: 11400376}
+  - 114: {fileID: 11400386}
   m_Layer: 0
   m_Name: May have a partt for you
   m_TagString: Untagged
@@ -1494,7 +1504,7 @@ MonoBehaviour:
   selected: 0
   optionText: Excited
   targetSequence: {fileID: 11400014}
-  valence: 0
+  valence: .670000017
   hideOnSelected: 0
 --- !u!114 &11400002
 MonoBehaviour:
@@ -1530,7 +1540,7 @@ MonoBehaviour:
   selected: 0
   optionText: Annoyed
   targetSequence: {fileID: 11400018}
-  valence: 0
+  valence: -.670000017
   hideOnSelected: 0
 --- !u!114 &11400006
 MonoBehaviour:
@@ -1896,7 +1906,7 @@ MonoBehaviour:
   selected: 0
   optionText: Excited
   targetSequence: {fileID: 11400036}
-  valence: 0
+  valence: .670000017
   hideOnSelected: 0
 --- !u!114 &11400046
 MonoBehaviour:
@@ -2192,7 +2202,7 @@ MonoBehaviour:
   selected: 0
   optionText: Dissapointed
   targetSequence: {fileID: 11400086}
-  valence: 0
+  valence: .670000017
   hideOnSelected: 0
 --- !u!114 &11400076
 MonoBehaviour:
@@ -2228,7 +2238,7 @@ MonoBehaviour:
   selected: 0
   optionText: Annoyed
   targetSequence: {fileID: 11400090}
-  valence: 0
+  valence: -.670000017
   hideOnSelected: 0
 --- !u!114 &11400080
 MonoBehaviour:
@@ -2373,7 +2383,7 @@ MonoBehaviour:
   selected: 0
   optionText: Excited
   targetSequence: {fileID: 11400310}
-  valence: 0
+  valence: .670000017
   hideOnSelected: 0
 --- !u!114 &11400094
 MonoBehaviour:
@@ -2409,7 +2419,7 @@ MonoBehaviour:
   selected: 0
   optionText: Annoyed
   targetSequence: {fileID: 11400314}
-  valence: 0
+  valence: -.670000017
   hideOnSelected: 0
 --- !u!114 &11400098
 MonoBehaviour:
@@ -2485,7 +2495,7 @@ MonoBehaviour:
   selected: 0
   optionText: Excited
   targetSequence: {fileID: 11400332}
-  valence: 0
+  valence: .670000017
   hideOnSelected: 0
 --- !u!114 &11400106
 MonoBehaviour:
@@ -2521,7 +2531,7 @@ MonoBehaviour:
   selected: 0
   optionText: Annoyed
   targetSequence: {fileID: 11400336}
-  valence: 0
+  valence: -.670000017
   hideOnSelected: 0
 --- !u!114 &11400110
 MonoBehaviour:
@@ -2595,7 +2605,7 @@ MonoBehaviour:
   selected: 0
   optionText: Excited
   targetSequence: {fileID: 11400126}
-  valence: 0
+  valence: .670000017
   hideOnSelected: 0
 --- !u!114 &11400118
 MonoBehaviour:
@@ -2631,7 +2641,7 @@ MonoBehaviour:
   selected: 0
   optionText: Annoyed
   targetSequence: {fileID: 11400130}
-  valence: 0
+  valence: -.670000017
   hideOnSelected: 0
 --- !u!114 &11400122
 MonoBehaviour:
@@ -2769,11 +2779,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scriptScrollPos: {x: 1099.02869, y: 171.5}
+  scriptScrollPos: {x: 1089.02808, y: 319}
   commandScrollPos: {x: 0, y: 0}
   commandViewWidth: 350
-  selectedSequence: {fileID: 11400052}
-  selectedCommand: {fileID: 11400050}
+  selectedSequence: {fileID: 11400344}
+  selectedCommand: {fileID: 11400348}
   variables:
   - {fileID: 11400132}
   - {fileID: 11400058}
@@ -2875,10 +2885,10 @@ MonoBehaviour:
     height: 40
   description: Initital dialog
   commandList:
-  - {fileID: 11400142}
   - {fileID: 11400148}
   - {fileID: 11400146}
   - {fileID: 11400140}
+  - {fileID: 11400142}
 --- !u!114 &11400146
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3118,7 +3128,7 @@ MonoBehaviour:
   selected: 0
   optionText: Excited
   targetSequence: {fileID: 11400164}
-  valence: 0
+  valence: .670000017
   hideOnSelected: 0
 --- !u!114 &11400170
 MonoBehaviour:
@@ -3154,7 +3164,7 @@ MonoBehaviour:
   selected: 0
   optionText: Annoyed
   targetSequence: {fileID: 11400230}
-  valence: 0
+  valence: -.670000017
   hideOnSelected: 0
 --- !u!114 &11400174
 MonoBehaviour:
@@ -3232,7 +3242,7 @@ MonoBehaviour:
   selected: 0
   optionText: Excited
   targetSequence: {fileID: 11400186}
-  valence: 0
+  valence: .670000017
   hideOnSelected: 0
 --- !u!114 &11400182
 MonoBehaviour:
@@ -3268,7 +3278,7 @@ MonoBehaviour:
   selected: 0
   optionText: Annoyed
   targetSequence: {fileID: 11400156}
-  valence: 0
+  valence: -.670000017
   hideOnSelected: 0
 --- !u!114 &11400186
 MonoBehaviour:
@@ -3329,7 +3339,7 @@ MonoBehaviour:
   selected: 0
   optionText: Excited
   targetSequence: {fileID: 11400164}
-  valence: 0
+  valence: .670000017
   hideOnSelected: 0
 --- !u!114 &11400192
 MonoBehaviour:
@@ -3365,7 +3375,7 @@ MonoBehaviour:
   selected: 0
   optionText: Annoyed
   targetSequence: {fileID: 11400230}
-  valence: 0
+  valence: -.670000017
   hideOnSelected: 0
 --- !u!114 &11400196
 MonoBehaviour:
@@ -3525,16 +3535,18 @@ MonoBehaviour:
   - {fileID: 11400064}
   - {fileID: 11400228}
   - {fileID: 11400226}
-  - {fileID: 11400062}
-  - {fileID: 11400066}
-  - {fileID: 11400060}
-  - {fileID: 11400220}
   - {fileID: 11400218}
   - {fileID: 11400216}
   - {fileID: 11400214}
   - {fileID: 11400212}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400062}
+  - {fileID: 11400066}
+  - {fileID: 11400060}
+  - {fileID: 11400220}
+  - {fileID: 11400404}
+  - {fileID: 11400402}
+  - {fileID: 11400400}
+  - {fileID: 11400398}
 --- !u!114 &11400212
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3547,7 +3559,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   errorMessage: 
-  indentLevel: 0
+  indentLevel: 1
   selected: 0
   chooseText: Well hello there. Beautiful day, isn't it?
   character: {fileID: 11400366}
@@ -3566,11 +3578,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   errorMessage: 
-  indentLevel: 0
+  indentLevel: 1
   selected: 0
   optionText: Excited
   targetSequence: {fileID: 11400136}
-  valence: 0
+  valence: .670000017
   hideOnSelected: 0
 --- !u!114 &11400216
 MonoBehaviour:
@@ -3584,7 +3596,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   errorMessage: 
-  indentLevel: 0
+  indentLevel: 1
   selected: 0
   optionText: Coy
   targetSequence: {fileID: 11400150}
@@ -3602,11 +3614,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   errorMessage: 
-  indentLevel: 0
+  indentLevel: 1
   selected: 0
   optionText: Annoyed
   targetSequence: {fileID: 11400206}
-  valence: 0
+  valence: -.670000017
   hideOnSelected: 0
 --- !u!114 &11400220
 MonoBehaviour:
@@ -3727,7 +3739,7 @@ MonoBehaviour:
   selected: 0
   optionText: Excited
   targetSequence: {fileID: 11400164}
-  valence: 0
+  valence: .670000017
   hideOnSelected: 0
 --- !u!114 &11400236
 MonoBehaviour:
@@ -3763,7 +3775,7 @@ MonoBehaviour:
   selected: 0
   optionText: Annoyed
   targetSequence: {fileID: 11400230}
-  valence: 0
+  valence: -.670000017
   hideOnSelected: 0
 --- !u!114 &11400240
 MonoBehaviour:
@@ -3799,7 +3811,7 @@ MonoBehaviour:
   selected: 0
   optionText: Annoyed
   targetSequence: {fileID: 11400040}
-  valence: 0
+  valence: -.670000017
   hideOnSelected: 0
 --- !u!114 &11400244
 MonoBehaviour:
@@ -3938,7 +3950,7 @@ MonoBehaviour:
   selected: 0
   optionText: Excited
   targetSequence: {fileID: 11400264}
-  valence: 0
+  valence: -.670000017
   hideOnSelected: 0
 --- !u!114 &11400260
 MonoBehaviour:
@@ -3974,7 +3986,7 @@ MonoBehaviour:
   selected: 0
   optionText: Annoyed
   targetSequence: {fileID: 11400268}
-  valence: 0
+  valence: -.670000017
   hideOnSelected: 0
 --- !u!114 &11400264
 MonoBehaviour:
@@ -4175,7 +4187,7 @@ MonoBehaviour:
   selected: 0
   optionText: Annoyed
   targetSequence: {fileID: 11400294}
-  valence: 0
+  valence: -.670000017
   hideOnSelected: 0
 --- !u!114 &11400286
 MonoBehaviour:
@@ -4717,6 +4729,7 @@ MonoBehaviour:
   description: 
   commandList:
   - {fileID: 11400364}
+  - {fileID: 11400388}
 --- !u!114 &11400344
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4757,6 +4770,7 @@ MonoBehaviour:
   description: 
   commandList:
   - {fileID: 11400376}
+  - {fileID: 11400386}
 --- !u!114 &11400348
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4893,7 +4907,7 @@ MonoBehaviour:
   errorMessage: 
   indentLevel: 0
   selected: 0
-  storyText: Well, you don't really know what I'm thinking... do you?
+  storyText: Well, you don't really know what I want... do you?
   character: {fileID: 11400378}
   voiceOverClip: {fileID: 8300000, guid: 4861131520883463d94ea91c117d7582, type: 3}
   showOnce: 0
@@ -5080,6 +5094,188 @@ MonoBehaviour:
   character: {fileID: 11400006}
   voiceOverClip: {fileID: 8300000, guid: 952173ee5bab247b8aba644fbdc021be, type: 3}
   showOnce: 0
+--- !u!114 &11400386
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  errorMessage: 
+  indentLevel: 0
+  selected: 0
+  storyText: Oh... Thanks.
+  character: {fileID: 11400378}
+  voiceOverClip: {fileID: 8300000, guid: b03aee2b6446346a3849500f9575fb56, type: 3}
+  showOnce: 0
+--- !u!114 &11400388
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  errorMessage: 
+  indentLevel: 0
+  selected: 0
+  storyText: Oh, screw you man!
+  character: {fileID: 11400374}
+  voiceOverClip: {fileID: 8300000, guid: a8506579d1b55447b8f1bd22f2b71b31, type: 3}
+  showOnce: 0
+--- !u!114 &11400390
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0af73916f367a42a39c2400b3da9e283, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  errorMessage: 
+  indentLevel: 0
+  selected: 0
+  chooseText: Well hello there. Beautiful day, isn't it?
+  character: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: a01a4a09044bd45cf8704d9333017dd7, type: 3}
+  timeoutDuration: 0
+  fungus: {fileID: 0}
+--- !u!114 &11400392
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a117d1457c7754a4b84a19961bd99741, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  errorMessage: 
+  indentLevel: 0
+  selected: 0
+  optionText: Excited
+  targetSequence: {fileID: 11400136}
+  valence: 0
+  hideOnSelected: 0
+--- !u!114 &11400394
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a117d1457c7754a4b84a19961bd99741, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  errorMessage: 
+  indentLevel: 0
+  selected: 0
+  optionText: Coy
+  targetSequence: {fileID: 11400150}
+  valence: 0
+  hideOnSelected: 0
+--- !u!114 &11400396
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a117d1457c7754a4b84a19961bd99741, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  errorMessage: 
+  indentLevel: 0
+  selected: 0
+  optionText: Annoyed
+  targetSequence: {fileID: 11400206}
+  valence: 0
+  hideOnSelected: 0
+--- !u!114 &11400398
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0af73916f367a42a39c2400b3da9e283, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  errorMessage: 
+  indentLevel: 0
+  selected: 0
+  chooseText: Well hello there. Beautiful day, isn't it?
+  character: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: a01a4a09044bd45cf8704d9333017dd7, type: 3}
+  timeoutDuration: 0
+  fungus: {fileID: 0}
+--- !u!114 &11400400
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a117d1457c7754a4b84a19961bd99741, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  errorMessage: 
+  indentLevel: 0
+  selected: 0
+  optionText: Excited
+  targetSequence: {fileID: 11400136}
+  valence: .800000012
+  hideOnSelected: 0
+--- !u!114 &11400402
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a117d1457c7754a4b84a19961bd99741, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  errorMessage: 
+  indentLevel: 0
+  selected: 0
+  optionText: Coy
+  targetSequence: {fileID: 11400150}
+  valence: .300000012
+  hideOnSelected: 0
+--- !u!114 &11400404
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a117d1457c7754a4b84a19961bd99741, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  errorMessage: 
+  indentLevel: 0
+  selected: 0
+  optionText: Annoyed
+  targetSequence: {fileID: 11400206}
+  valence: -.400000006
+  hideOnSelected: 0
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
