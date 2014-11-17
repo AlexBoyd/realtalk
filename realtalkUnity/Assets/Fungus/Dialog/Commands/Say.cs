@@ -56,7 +56,7 @@ namespace Fungus
 			dialog.Say(storyText, delegate {
 				dialog.ShowDialog(false);
 				Continue();
-			}, voiceOverDuration);
+            }, voiceOverDuration);
 		}
 
 		public override string GetSummary()

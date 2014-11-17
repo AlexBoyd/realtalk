@@ -71,11 +71,14 @@ namespace Fungus
 		protected virtual IEnumerator WaitForTimeout(float timeoutDuration, Action onTimeout)
 		{
 			float elapsedTime = 0;
-			
+            yield return null;
 			while (elapsedTime < timeoutDuration)
 			{
 				elapsedTime += Time.deltaTime;
-				
+				if(Input.GetKeyDown(KeyCode.Space))
+                {
+                    break;
+                }
 				yield return null;
 			}
 			

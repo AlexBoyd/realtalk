@@ -72,7 +72,11 @@ namespace Fungus
 		 */
 		public virtual void PlaySound(AudioClip soundClip, float volume)
 		{
-			audio.PlayOneShot(soundClip, volume);
+            audio.Stop ();
+			audio.clip = soundClip;
+            audio.volume = volume;
+            audio.loop = false;
+            audio.Play ();
 		}
 	}
 }
