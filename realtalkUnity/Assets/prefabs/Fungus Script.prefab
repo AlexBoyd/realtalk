@@ -696,7 +696,6 @@ GameObject:
   - 114: {fileID: 11400402}
   - 114: {fileID: 11400400}
   - 114: {fileID: 11400398}
-  - 114: {fileID: 11400224}
   - 114: {fileID: 11400222}
   m_Layer: 0
   m_Name: 32
@@ -2781,11 +2780,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scriptScrollPos: {x: 794.048462, y: 88.0053711}
+  scriptScrollPos: {x: 1306.08276, y: 153.491333}
   commandScrollPos: {x: 0, y: 0}
   commandViewWidth: 350
-  selectedSequence: {fileID: 11400128}
-  selectedCommand: {fileID: 11400100}
+  selectedSequence: {fileID: 11400210}
+  selectedCommand: {fileID: 11400226}
   variables:
   - {fileID: 11400132}
   - {fileID: 11400058}
@@ -3538,8 +3537,8 @@ MonoBehaviour:
   commandList:
   - {fileID: 11400064}
   - {fileID: 11400228}
-  - {fileID: 11400224}
   - {fileID: 11400222}
+  - {fileID: 11400220}
   - {fileID: 11400226}
   - {fileID: 11400066}
   - {fileID: 11400218}
@@ -3548,7 +3547,6 @@ MonoBehaviour:
   - {fileID: 11400212}
   - {fileID: 11400062}
   - {fileID: 11400060}
-  - {fileID: 11400220}
   - {fileID: 11400404}
   - {fileID: 11400402}
   - {fileID: 11400400}
@@ -3632,13 +3630,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100068}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   errorMessage: 
-  indentLevel: 0
+  indentLevel: 1
   selected: 0
   storyText: Ok, hi. Ready to get started?
   character: {fileID: 11400366}
@@ -3658,33 +3656,18 @@ MonoBehaviour:
   errorMessage: 
   indentLevel: 1
   selected: 0
-  storyText: 'Wait, where did he go? HANK! GET IN
+  storyText: 'Yes, that sounds good. Let''s move on to the audition scene. Let me
+    just get Hank in here, he will be your dialog partner.
 
-    HERE! ANOTHER GIRL IS AUDITIONING! questo stronzo
 
-'
+    Wait, where did he go? HANK! GET IN HERE! ANOTHER GIRL IS AUDITIONING! questo
+    stronzo...
+
+
+    Sorry, he keeps wandering off. He''s the producer''s son... mama mia ''e un ragazzo
+    incompetente.'
   character: {fileID: 11400368}
-  voiceOverClip: {fileID: 8300000, guid: 05350d0ed3fe142229b2cb66bae0d0f9, type: 3}
-  showOnce: 0
---- !u!114 &11400224
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100068}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  errorMessage: 
-  indentLevel: 1
-  selected: 0
-  storyText: "Yes, that sounds good. Let's move on to the scene. You are going for
-    a walk through a park on a summer day, and a man approaches you.  Let me just
-    get Hank in here\u2026 he will be your dialog partner. "
-  character: {fileID: 11400368}
-  voiceOverClip: {fileID: 8300000, guid: 59be774feaf0f44ff979ce947f7fbfc1, type: 3}
+  voiceOverClip: {fileID: 8300000, guid: 06dde8f0b01754b6a8d3567864ec804e, type: 3}
   showOnce: 0
 --- !u!114 &11400226
 MonoBehaviour:
@@ -3700,10 +3683,12 @@ MonoBehaviour:
   errorMessage: 
   indentLevel: 1
   selected: 0
-  storyText: "Sorry, he keeps wandering off. He's the producer's son... mama mia \u2018e
-    un ragazzo incompetente."
+  storyText: Ok, so in this scene you are meeting your love interest for the first
+    time. Then, you are walking through a park on a breezy summer day. A man approaches
+    you. I won't be giving you specific direction for the scene, so I want you to
+    improvise how the scene should go.
   character: {fileID: 11400368}
-  voiceOverClip: {fileID: 8300000, guid: 8b4ca7bfa996c4099a70161d306d3b30, type: 3}
+  voiceOverClip: {fileID: 8300000, guid: 5e26818b480324c92a9376aaff2a3cbc, type: 3}
   showOnce: 0
 --- !u!114 &11400228
 MonoBehaviour:

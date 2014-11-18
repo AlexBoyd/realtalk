@@ -80,6 +80,18 @@ namespace Fungus
                 em3.isOn = true;
             }
 
+            if (Input.GetKeyUp (KeyCode.Alpha1))
+            {
+                Application.LoadLevel (0);
+            }
+            if (Input.GetKeyUp (KeyCode.Alpha2))
+            {
+                Application.LoadLevel (1);
+            }
+            if (Input.GetKeyUp (KeyCode.Alpha3))
+            {
+                Application.LoadLevel (2);
+            }
 
         }
 		
