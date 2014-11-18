@@ -696,6 +696,8 @@ GameObject:
   - 114: {fileID: 11400402}
   - 114: {fileID: 11400400}
   - 114: {fileID: 11400398}
+  - 114: {fileID: 11400224}
+  - 114: {fileID: 11400222}
   m_Layer: 0
   m_Name: 32
   m_TagString: Untagged
@@ -2455,7 +2457,7 @@ MonoBehaviour:
   errorMessage: 
   indentLevel: 0
   selected: 0
-  storyText: Good. Keep going.
+  storyText: And continue...
   character: {fileID: 11400368}
   voiceOverClip: {fileID: 8300000, guid: 5c5bf389e85384548b33706500c8b183, type: 3}
   showOnce: 0
@@ -2676,9 +2678,9 @@ MonoBehaviour:
   errorMessage: 
   indentLevel: 0
   selected: 0
-  storyText: Good. Keep going.
+  storyText: Hmm. Keep going.
   character: {fileID: 11400368}
-  voiceOverClip: {fileID: 8300000, guid: 54c94a19b10154c0db1f8ba3e3e1a7ea, type: 3}
+  voiceOverClip: {fileID: 8300000, guid: bf9bc40ed2f6e4d3f8869e7881a442d1, type: 3}
   showOnce: 0
 --- !u!114 &11400126
 MonoBehaviour:
@@ -2779,11 +2781,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scriptScrollPos: {x: 24.0014648, y: 0}
+  scriptScrollPos: {x: 794.048462, y: 88.0053711}
   commandScrollPos: {x: 0, y: 0}
   commandViewWidth: 350
-  selectedSequence: {fileID: 11400040}
-  selectedCommand: {fileID: 0}
+  selectedSequence: {fileID: 11400128}
+  selectedCommand: {fileID: 11400100}
   variables:
   - {fileID: 11400132}
   - {fileID: 11400058}
@@ -2971,9 +2973,9 @@ MonoBehaviour:
   errorMessage: 
   indentLevel: 0
   selected: 0
-  storyText: Good. Keep going.
+  storyText: Hmm. Keep going.
   character: {fileID: 11400368}
-  voiceOverClip: {fileID: 8300000, guid: 54c94a19b10154c0db1f8ba3e3e1a7ea, type: 3}
+  voiceOverClip: {fileID: 8300000, guid: bf9bc40ed2f6e4d3f8869e7881a442d1, type: 3}
   showOnce: 0
 --- !u!114 &11400154
 MonoBehaviour:
@@ -3319,9 +3321,10 @@ MonoBehaviour:
   errorMessage: 
   indentLevel: 0
   selected: 0
-  chooseText: Great, that's just great. Alright now try the same line, but Coy...
+  chooseText: Great, that's just great. Alright now try the same line, but coy. Like
+    shy, or reserved, but still flirty.
   character: {fileID: 11400368}
-  voiceOverClip: {fileID: 8300000, guid: 9d322bd4e435c465491769cbbabebc3d, type: 3}
+  voiceOverClip: {fileID: 8300000, guid: 7fd6b91d521364d6ab5c6049783a5888, type: 3}
   timeoutDuration: 0
   fungus: {fileID: 0}
 --- !u!114 &11400190
@@ -3535,6 +3538,8 @@ MonoBehaviour:
   commandList:
   - {fileID: 11400064}
   - {fileID: 11400228}
+  - {fileID: 11400224}
+  - {fileID: 11400222}
   - {fileID: 11400226}
   - {fileID: 11400066}
   - {fileID: 11400218}
@@ -3639,7 +3644,29 @@ MonoBehaviour:
   character: {fileID: 11400366}
   voiceOverClip: {fileID: 8300000, guid: e26ad70e6121c4811bf5f45dda9f2d64, type: 3}
   showOnce: 0
---- !u!114 &11400226
+--- !u!114 &11400222
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  errorMessage: 
+  indentLevel: 1
+  selected: 0
+  storyText: 'Wait, where did he go? HANK! GET IN
+
+    HERE! ANOTHER GIRL IS AUDITIONING! questo stronzo
+
+'
+  character: {fileID: 11400368}
+  voiceOverClip: {fileID: 8300000, guid: 05350d0ed3fe142229b2cb66bae0d0f9, type: 3}
+  showOnce: 0
+--- !u!114 &11400224
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -3655,12 +3682,28 @@ MonoBehaviour:
   selected: 0
   storyText: "Yes, that sounds good. Let's move on to the scene. You are going for
     a walk through a park on a summer day, and a man approaches you.  Let me just
-    get Hank in here\u2026 he will be your dialog partner. \n\nWait, where did he
-    go? HANK! GET IN\nHERE! ANOTHER GIRL IS AUDITIONING! questo stronzo\n\nSorry,
-    he keeps wandering off. He's the producer's son... mama mia \u2018e un ragazzo
-    incompetente."
+    get Hank in here\u2026 he will be your dialog partner. "
   character: {fileID: 11400368}
-  voiceOverClip: {fileID: 8300000, guid: 127d862c3ca934209925dd170561bea6, type: 3}
+  voiceOverClip: {fileID: 8300000, guid: 59be774feaf0f44ff979ce947f7fbfc1, type: 3}
+  showOnce: 0
+--- !u!114 &11400226
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  errorMessage: 
+  indentLevel: 1
+  selected: 0
+  storyText: "Sorry, he keeps wandering off. He's the producer's son... mama mia \u2018e
+    un ragazzo incompetente."
+  character: {fileID: 11400368}
+  voiceOverClip: {fileID: 8300000, guid: 8b4ca7bfa996c4099a70161d306d3b30, type: 3}
   showOnce: 0
 --- !u!114 &11400228
 MonoBehaviour:
@@ -3718,10 +3761,9 @@ MonoBehaviour:
   errorMessage: 
   indentLevel: 0
   selected: 0
-  chooseText: "Hmm... let's try that one again. I want to hear coy, like shy or reserved\u2026
-    but still flirty"
+  chooseText: Hmm... let's try that one again. I want to hear coy, like shy or reserved.
   character: {fileID: 11400372}
-  voiceOverClip: {fileID: 8300000, guid: cb5685fc5797241ceb3c799cb25df47f, type: 3}
+  voiceOverClip: {fileID: 8300000, guid: 8082c1d521fb041dbb719786e76986fb, type: 3}
   timeoutDuration: 0
   fungus: {fileID: 0}
 --- !u!114 &11400234
@@ -4688,7 +4730,7 @@ MonoBehaviour:
   errorMessage: 
   indentLevel: 0
   selected: 0
-  storyText: Hmm. Continue.
+  storyText: And continue...
   character: {fileID: 11400368}
   voiceOverClip: {fileID: 8300000, guid: 5c5bf389e85384548b33706500c8b183, type: 3}
   showOnce: 0
