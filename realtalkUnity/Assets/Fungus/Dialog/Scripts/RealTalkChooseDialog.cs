@@ -80,21 +80,35 @@ namespace Fungus
                 em3.isOn = true;
             }
 
-            if (Input.GetKeyUp (KeyCode.Alpha1))
-            {
-                Application.LoadLevel (0);
-            }
-            if (Input.GetKeyUp (KeyCode.Alpha2))
-            {
-                Application.LoadLevel (1);
-            }
-            if (Input.GetKeyUp (KeyCode.Alpha3))
-            {
-                Application.LoadLevel (2);
-            }
-
+//            if (Input.GetKeyUp (KeyCode.Alpha1))
+//            {
+//                Application.LoadLevel (0);
+//            }
+//            if (Input.GetKeyUp (KeyCode.Alpha2))
+//            {
+//                Application.LoadLevel (1);
+//            }
+//            if (Input.GetKeyUp (KeyCode.Alpha3))
+//            {
+//                Application.LoadLevel (2);
+//            }
         }
+
+		public void onClickControl()
+		{
+			Application.LoadLevel (0);
+		}
 		
+		public void onClickSlider ()
+		{
+			Application.LoadLevel (1);
+		}
+		
+		public void onClickToggle()
+		{
+			Application.LoadLevel (2);
+		}
+
 		protected virtual void OnDisable()
 		{
 			activeDialogs.Remove(this);
