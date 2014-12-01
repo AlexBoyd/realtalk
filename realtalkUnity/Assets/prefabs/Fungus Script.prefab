@@ -513,7 +513,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 400052}
   - 114: {fileID: 11400144}
-  - 114: {fileID: 11400142}
   - 114: {fileID: 11400148}
   - 114: {fileID: 11400146}
   - 114: {fileID: 11400140}
@@ -1569,7 +1568,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scope: 1
+  scope: 0
   key: is52Annoyed11
 --- !u!114 &11400010
 MonoBehaviour:
@@ -1582,7 +1581,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scope: 1
+  scope: 0
   key: is51Excited11
 --- !u!114 &11400012
 MonoBehaviour:
@@ -1595,7 +1594,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scope: 1
+  scope: 0
   key: is51Coy11
 --- !u!114 &11400014
 MonoBehaviour:
@@ -2034,7 +2033,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scope: 1
+  scope: 0
   key: Count3211
 --- !u!114 &11400060
 MonoBehaviour:
@@ -2767,7 +2766,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scope: 1
+  scope: 0
   key: is32PlayedBefore11
 --- !u!114 &11400134
 MonoBehaviour:
@@ -2783,8 +2782,8 @@ MonoBehaviour:
   scriptScrollPos: {x: 1306.08276, y: 153.491333}
   commandScrollPos: {x: 0, y: 0}
   commandViewWidth: 350
-  selectedSequence: {fileID: 11400210}
-  selectedCommand: {fileID: 11400226}
+  selectedSequence: {fileID: 11400186}
+  selectedCommand: {fileID: 11400188}
   variables:
   - {fileID: 11400132}
   - {fileID: 11400058}
@@ -2856,17 +2855,6 @@ MonoBehaviour:
   indentLevel: 0
   selected: 0
   targetSequence: {fileID: 11400176}
---- !u!114 &11400142
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100052}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &11400144
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2889,7 +2877,7 @@ MonoBehaviour:
   - {fileID: 11400148}
   - {fileID: 11400146}
   - {fileID: 11400140}
-  - {fileID: 11400142}
+  - {fileID: 0}
 --- !u!114 &11400146
 MonoBehaviour:
   m_ObjectHideFlags: 1

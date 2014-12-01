@@ -75,10 +75,10 @@ namespace Fungus
 			while (elapsedTime < timeoutDuration)
 			{
 				elapsedTime += Time.deltaTime;
-				if(Input.GetKeyDown(KeyCode.Space))
-                {
-                    break;
-                }
+//				if(Input.GetKeyDown(KeyCode.Space))
+//                {
+//                    break;
+//                }
 				yield return null;
 			}
 			

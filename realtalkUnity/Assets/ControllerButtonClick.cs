@@ -20,6 +20,8 @@ public class ControllerButtonClick : MonoBehaviour {
         if (Input.GetKeyDown (joystickButton))
         {
             gameObject.GetComponent<UnityEngine.UI.Button>().onClick.Invoke();
+//			gameObject.GetComponent<UnityEngine.UI.Toggle>().isOn = true;
+
         }
 	}
 

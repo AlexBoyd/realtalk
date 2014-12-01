@@ -2504,7 +2504,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 464432392}
   - 114: {fileID: 464432394}
-  - 114: {fileID: 464432397}
   - 114: {fileID: 464432396}
   - 114: {fileID: 464432393}
   - 114: {fileID: 464432395}
@@ -2569,7 +2568,7 @@ MonoBehaviour:
   - {fileID: 464432396}
   - {fileID: 464432393}
   - {fileID: 464432395}
-  - {fileID: 464432397}
+  - {fileID: 0}
 --- !u!114 &464432395
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2612,18 +2611,6 @@ MonoBehaviour:
   character: {fileID: 1152669933}
   voiceOverClip: {fileID: 8300000, guid: 2eb2c2993fa204911af4a3c8281576d6, type: 3}
   showOnce: 0
---- !u!114 &464432397
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 11400142, guid: 595b2589b85eb4590a781e71b75cda17,
-    type: 2}
-  m_PrefabInternal: {fileID: 2040741781}
-  m_GameObject: {fileID: 464432391}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &498339306
 GameObject:
   m_ObjectHideFlags: 0
@@ -6191,7 +6178,7 @@ MonoBehaviour:
   scriptScrollPos: {x: 1306.08276, y: 153.491333}
   commandScrollPos: {x: 0, y: 0}
   commandViewWidth: 350
-  selectedSequence: {fileID: 1464852900}
+  selectedSequence: {fileID: 2132260039}
   selectedCommand: {fileID: 1464852913}
   variables:
   - {fileID: 1193482273}
