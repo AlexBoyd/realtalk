@@ -4189,7 +4189,7 @@ GameObject:
   - 114: {fileID: 837923313}
   - 114: {fileID: 837923312}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Control Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6435,7 +6435,7 @@ GameObject:
   - 114: {fileID: 1273086487}
   - 114: {fileID: 1273086486}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Slider Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6478,7 +6478,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: .501960814, g: .501960814, b: .501960814, a: .501960814}
+    m_NormalColor: {r: .270588249, g: .270588249, b: .270588249, a: .501960814}
     m_HighlightedColor: {r: .501960814, g: .501960814, b: .501960814, a: .698039234}
     m_PressedColor: {r: .345098048, g: .345098048, b: .345098048, a: .698039234}
     m_DisabledColor: {r: .250980407, g: .250980407, b: .250980407, a: .501960814}
@@ -8481,7 +8481,7 @@ GameObject:
   - 114: {fileID: 1754481125}
   - 114: {fileID: 1754481124}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Toggle Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
